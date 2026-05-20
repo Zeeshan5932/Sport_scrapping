@@ -1,0 +1,724 @@
+{
+  "live_update": true,
+  "date": "2026-05-20",
+  "scraped_at": "2026-05-20T12:08:56.121188",
+  "source": "https://sportcenter.sir.sportradar.com/cricket-lmt",
+  "total_tournaments": 40,
+  "total_matches": 40,
+  "tournaments": [
+    {
+      "tournament_index": 1,
+      "tournament_name": "",
+      "total_matches": 1,
+      "matches": [
+        {
+          "match_index": 1,
+          "scraped_at": "2026-05-20T07:08:55.760Z",
+          "home_team": "MT Satima",
+          "away_team": "MT Karisimbi",
+          "home_score": "Yet to bat",
+          "away_score": "34/0",
+          "status": "INN 1 | 5.5/20 OV",
+          "comment": "MT Karisimbi are 34 for 0 after 5.5 overs.",
+          "match_id": "71299412"
+        }
+      ],
+      "date": "2026-05-20"
+    },
+    {
+      "tournament_index": 2,
+      "tournament_name": "",
+      "total_matches": 1,
+      "matches": [
+        {
+          "match_index": 1,
+          "scraped_at": "2026-05-20T07:08:55.760Z",
+          "home_team": "MT Elgon",
+          "away_team": "MT Kilimanjaro",
+          "status": "20 May|16:00",
+          "comment": "",
+          "match_id": "71299414"
+        }
+      ],
+      "date": "2026-05-20"
+    },
+    {
+      "tournament_index": 3,
+      "tournament_name": "",
+      "total_matches": 1,
+      "matches": [
+        {
+          "match_index": 1,
+          "scraped_at": "2026-05-20T07:08:55.760Z",
+          "home_team": "Siraha",
+          "away_team": "Dhanusha",
+          "home_score": "112/6",
+          "away_score": "112/6",
+          "status": "Ended",
+          "comment": "Dhanusha win the Super Over (Dhanusha 14/1, Siraha 3/1)",
+          "match_id": "71605650"
+        }
+      ],
+      "date": "2026-05-20"
+    },
+    {
+      "tournament_index": 4,
+      "tournament_name": "",
+      "total_matches": 1,
+      "matches": [
+        {
+          "match_index": 1,
+          "scraped_at": "2026-05-20T07:08:55.760Z",
+          "home_team": "Bara",
+          "away_team": "Parsa",
+          "home_score": "121/8",
+          "away_score": "105/10",
+          "status": "Ended",
+          "comment": "Bara have won by 16 runs",
+          "match_id": "71605648"
+        }
+      ],
+      "date": "2026-05-20"
+    },
+    {
+      "tournament_index": 5,
+      "tournament_name": "",
+      "total_matches": 1,
+      "matches": [
+        {
+          "match_index": 1,
+          "scraped_at": "2026-05-20T07:08:55.760Z",
+          "home_team": "Moravian Cc",
+          "away_team": "Saffron Strikers",
+          "status": "20 May|18:30",
+          "comment": "",
+          "match_id": "71523584"
+        }
+      ],
+      "date": "2026-05-20"
+    },
+    {
+      "tournament_index": 6,
+      "tournament_name": "",
+      "total_matches": 1,
+      "matches": [
+        {
+          "match_index": 1,
+          "scraped_at": "2026-05-20T07:08:55.760Z",
+          "home_team": "Moravian Cc",
+          "away_team": "Saffron Strikers",
+          "status": "20 May|12:30",
+          "comment": "",
+          "match_id": "71523578"
+        }
+      ],
+      "date": "2026-05-20"
+    },
+    {
+      "tournament_index": 7,
+      "tournament_name": "",
+      "total_matches": 1,
+      "matches": [
+        {
+          "match_index": 1,
+          "scraped_at": "2026-05-20T07:08:55.760Z",
+          "home_team": "Prague Barbarians",
+          "away_team": "Saffron Strikers",
+          "status": "20 May|16:30",
+          "comment": "",
+          "match_id": "71523582"
+        }
+      ],
+      "date": "2026-05-20"
+    },
+    {
+      "tournament_index": 8,
+      "tournament_name": "",
+      "total_matches": 1,
+      "matches": [
+        {
+          "match_index": 1,
+          "scraped_at": "2026-05-20T07:08:55.760Z",
+          "home_team": "Moravian Cc",
+          "away_team": "Prague Barbarians",
+          "status": "20 May|14:30",
+          "comment": "",
+          "match_id": "71523580"
+        }
+      ],
+      "date": "2026-05-20"
+    },
+    {
+      "tournament_index": 9,
+      "tournament_name": "",
+      "total_matches": 1,
+      "matches": [
+        {
+          "match_index": 1,
+          "scraped_at": "2026-05-20T07:08:55.760Z",
+          "home_team": "Auckland SRL",
+          "away_team": "Northern Districts SRL",
+          "home_score": "40/3",
+          "away_score": "98 All Out",
+          "status": "Simulated match - INN 2 | 6.2/20 OV",
+          "comment": "Auckland SRL require 59 runs from 82 balls.",
+          "match_id": "71500936"
+        }
+      ],
+      "date": "2026-05-20"
+    },
+    {
+      "tournament_index": 10,
+      "tournament_name": "",
+      "total_matches": 1,
+      "matches": [
+        {
+          "match_index": 1,
+          "scraped_at": "2026-05-20T07:08:55.760Z",
+          "home_team": "Central Districts SRL",
+          "away_team": "Wellington SRL",
+          "home_score": "149/4",
+          "away_score": "151/1",
+          "status": "Simulated match - Ended",
+          "comment": "Wellington SRL have won by 9 wickets (Toss: CD)",
+          "match_id": "71500934"
+        }
+      ],
+      "date": "2026-05-20"
+    },
+    {
+      "tournament_index": 11,
+      "tournament_name": "",
+      "total_matches": 1,
+      "matches": [
+        {
+          "match_index": 1,
+          "scraped_at": "2026-05-20T07:08:55.760Z",
+          "home_team": "Central Districts SRL",
+          "away_team": "Wellington SRL",
+          "status": "Simulated match - 20 May|17:00",
+          "comment": "",
+          "match_id": "71500938"
+        }
+      ],
+      "date": "2026-05-20"
+    },
+    {
+      "tournament_index": 12,
+      "tournament_name": "",
+      "total_matches": 1,
+      "matches": [
+        {
+          "match_index": 1,
+          "scraped_at": "2026-05-20T07:08:55.760Z",
+          "home_team": "Sweden",
+          "away_team": "Malta",
+          "status": "20 May|17:30",
+          "comment": "",
+          "match_id": "71011268"
+        }
+      ],
+      "date": "2026-05-20"
+    },
+    {
+      "tournament_index": 13,
+      "tournament_name": "",
+      "total_matches": 1,
+      "matches": [
+        {
+          "match_index": 1,
+          "scraped_at": "2026-05-20T07:08:55.760Z",
+          "home_team": "Slovenia",
+          "away_team": "Guernsey",
+          "status": "20 May|12:30",
+          "comment": "",
+          "match_id": "71011266"
+        }
+      ],
+      "date": "2026-05-20"
+    },
+    {
+      "tournament_index": 14,
+      "tournament_name": "",
+      "total_matches": 1,
+      "matches": [
+        {
+          "match_index": 1,
+          "scraped_at": "2026-05-20T07:08:55.760Z",
+          "home_team": "Croatia",
+          "away_team": "Jersey",
+          "status": "20 May|17:30",
+          "comment": "",
+          "match_id": "71011246"
+        }
+      ],
+      "date": "2026-05-20"
+    },
+    {
+      "tournament_index": 15,
+      "tournament_name": "",
+      "total_matches": 1,
+      "matches": [
+        {
+          "match_index": 1,
+          "scraped_at": "2026-05-20T07:08:55.760Z",
+          "home_team": "Cyprus",
+          "away_team": "Switzerland",
+          "status": "20 May|12:30",
+          "comment": "Cyprus won the toss and elected to bowl first.",
+          "match_id": "71486614"
+        }
+      ],
+      "date": "2026-05-20"
+    },
+    {
+      "tournament_index": 16,
+      "tournament_name": "",
+      "total_matches": 1,
+      "matches": [
+        {
+          "match_index": 1,
+          "scraped_at": "2026-05-20T07:08:55.760Z",
+          "home_team": "Karachi Kings SRL",
+          "away_team": "Lahore Qalandars SRL",
+          "status": "Simulated match - 20 May|14:00",
+          "comment": "",
+          "match_id": "71500690"
+        }
+      ],
+      "date": "2026-05-20"
+    },
+    {
+      "tournament_index": 17,
+      "tournament_name": "",
+      "total_matches": 1,
+      "matches": [
+        {
+          "match_index": 1,
+          "scraped_at": "2026-05-20T07:08:55.760Z",
+          "home_team": "Multan Sultans SRL",
+          "away_team": "Quetta Gladiators SRL",
+          "status": "Simulated match - 20 May|19:00",
+          "comment": "",
+          "match_id": "71500692"
+        }
+      ],
+      "date": "2026-05-20"
+    },
+    {
+      "tournament_index": 18,
+      "tournament_name": "",
+      "total_matches": 1,
+      "matches": [
+        {
+          "match_index": 1,
+          "scraped_at": "2026-05-20T07:08:55.760Z",
+          "home_team": "Islamabad United SRL",
+          "away_team": "Peshawar Zalmi SRL",
+          "home_score": "190/3",
+          "away_score": "189/3",
+          "status": "Simulated match - Ended",
+          "comment": "Islamabad United SRL have won by 7 wickets (Toss: PZ)",
+          "match_id": "71500688"
+        }
+      ],
+      "date": "2026-05-20"
+    },
+    {
+      "tournament_index": 19,
+      "tournament_name": "",
+      "total_matches": 1,
+      "matches": [
+        {
+          "match_index": 1,
+          "scraped_at": "2026-05-20T07:08:55.761Z",
+          "home_team": "Kelantan",
+          "away_team": "Perak",
+          "home_score": "Yet to bat",
+          "away_score": "Yet to bat",
+          "status": "Ended",
+          "comment": "",
+          "match_id": "71116588"
+        }
+      ],
+      "date": "2026-05-20"
+    },
+    {
+      "tournament_index": 20,
+      "tournament_name": "",
+      "total_matches": 1,
+      "matches": [
+        {
+          "match_index": 1,
+          "scraped_at": "2026-05-20T07:08:55.761Z",
+          "home_team": "Kuala Lumpur",
+          "away_team": "Johor",
+          "status": "20 May|07:00",
+          "comment": "",
+          "match_id": "71116590"
+        }
+      ],
+      "date": "2026-05-20"
+    },
+    {
+      "tournament_index": 21,
+      "tournament_name": "",
+      "total_matches": 1,
+      "matches": [
+        {
+          "match_index": 1,
+          "scraped_at": "2026-05-20T07:08:55.761Z",
+          "home_team": "Pakistan SRL",
+          "away_team": "Australia SRL",
+          "status": "Simulated match - 20 May|13:00",
+          "comment": "",
+          "match_id": "71500752"
+        }
+      ],
+      "date": "2026-05-20"
+    },
+    {
+      "tournament_index": 22,
+      "tournament_name": "",
+      "total_matches": 1,
+      "matches": [
+        {
+          "match_index": 1,
+          "scraped_at": "2026-05-20T07:08:55.761Z",
+          "home_team": "India SRL",
+          "away_team": "England SRL",
+          "home_score": "155/9",
+          "away_score": "164/5",
+          "status": "Simulated match - Ended",
+          "comment": "England SRL have won by 9 runs (Toss: Ind)",
+          "match_id": "71500750"
+        }
+      ],
+      "date": "2026-05-20"
+    },
+    {
+      "tournament_index": 23,
+      "tournament_name": "",
+      "total_matches": 1,
+      "matches": [
+        {
+          "match_index": 1,
+          "scraped_at": "2026-05-20T07:08:55.761Z",
+          "home_team": "Sri Lanka SRL",
+          "away_team": "West Indies SRL",
+          "status": "Simulated match - 20 May|16:00",
+          "comment": "",
+          "match_id": "71500754"
+        }
+      ],
+      "date": "2026-05-20"
+    },
+    {
+      "tournament_index": 24,
+      "tournament_name": "",
+      "total_matches": 1,
+      "matches": [
+        {
+          "match_index": 1,
+          "scraped_at": "2026-05-20T07:08:55.761Z",
+          "home_team": "New Zealand SRL",
+          "away_team": "South Africa SRL",
+          "home_score": "154/6",
+          "away_score": "160/3",
+          "status": "Simulated match - Ended",
+          "comment": "South Africa SRL have won by 7 wickets (Toss: NZ)",
+          "match_id": "71500748"
+        }
+      ],
+      "date": "2026-05-20"
+    },
+    {
+      "tournament_index": 25,
+      "tournament_name": "",
+      "total_matches": 1,
+      "matches": [
+        {
+          "match_index": 1,
+          "scraped_at": "2026-05-20T07:08:55.761Z",
+          "home_team": "Northern Lions Cc",
+          "away_team": "Central Eagles Cc",
+          "status": "20 May|17:00",
+          "comment": "",
+          "match_id": "71433994"
+        }
+      ],
+      "date": "2026-05-20"
+    },
+    {
+      "tournament_index": 26,
+      "tournament_name": "",
+      "total_matches": 1,
+      "matches": [
+        {
+          "match_index": 1,
+          "scraped_at": "2026-05-20T07:08:55.761Z",
+          "home_team": "Eastern Elephant Cc",
+          "away_team": "Middle-Belt Tigers Cc",
+          "status": "20 May|13:30",
+          "comment": "",
+          "match_id": "71433992"
+        }
+      ],
+      "date": "2026-05-20"
+    },
+    {
+      "tournament_index": 27,
+      "tournament_name": "",
+      "total_matches": 1,
+      "matches": [
+        {
+          "match_index": 1,
+          "scraped_at": "2026-05-20T07:08:55.761Z",
+          "home_team": "Adelaide Strikers SRL",
+          "away_team": "Hobart Hurricanes SRL",
+          "home_score": "120/9",
+          "away_score": "209/5",
+          "status": "Ended",
+          "comment": "Hobart Hurricanes SRL have won by 89 runs (Toss: AS)",
+          "match_id": "71500870"
+        }
+      ],
+      "date": "2026-05-20"
+    },
+    {
+      "tournament_index": 28,
+      "tournament_name": "",
+      "total_matches": 1,
+      "matches": [
+        {
+          "match_index": 1,
+          "scraped_at": "2026-05-20T07:08:55.761Z",
+          "home_team": "Brisbane Heat SRL",
+          "away_team": "Perth Scorchers SRL",
+          "home_score": "Yet to bat",
+          "away_score": "36/1",
+          "status": "INN 1 | 3.4/20 OV",
+          "comment": "Perth Scorchers SRL are 36 for 1 after 3.4 overs.",
+          "match_id": "71500872"
+        }
+      ],
+      "date": "2026-05-20"
+    },
+    {
+      "tournament_index": 29,
+      "tournament_name": "",
+      "total_matches": 1,
+      "matches": [
+        {
+          "match_index": 1,
+          "scraped_at": "2026-05-20T07:08:55.761Z",
+          "home_team": "Sydney Sixers SRL",
+          "away_team": "Melbourne Renegades SRL",
+          "home_score": "173/6",
+          "away_score": "192/6",
+          "status": "Ended",
+          "comment": "Melbourne Renegades SRL have won by 19 runs (Toss: MR)",
+          "match_id": "71500868"
+        }
+      ],
+      "date": "2026-05-20"
+    },
+    {
+      "tournament_index": 30,
+      "tournament_name": "",
+      "total_matches": 1,
+      "matches": [
+        {
+          "match_index": 1,
+          "scraped_at": "2026-05-20T07:08:55.761Z",
+          "home_team": "Melbourne Stars SRL",
+          "away_team": "Sydney Sixers SRL",
+          "status": "20 May|18:00",
+          "comment": "",
+          "match_id": "71500874"
+        }
+      ],
+      "date": "2026-05-20"
+    },
+    {
+      "tournament_index": 31,
+      "tournament_name": "",
+      "total_matches": 1,
+      "matches": [
+        {
+          "match_index": 1,
+          "scraped_at": "2026-05-20T07:08:55.761Z",
+          "home_team": "Paarl Royals SRL",
+          "away_team": "Sunrisers Eastern Cape SRL",
+          "status": "Simulated match - 20 May|23:00",
+          "comment": "",
+          "match_id": "71501194"
+        }
+      ],
+      "date": "2026-05-20"
+    },
+    {
+      "tournament_index": 32,
+      "tournament_name": "",
+      "total_matches": 1,
+      "matches": [
+        {
+          "match_index": 1,
+          "scraped_at": "2026-05-20T07:08:55.761Z",
+          "home_team": "Joburg Super Kings SRL",
+          "away_team": "Mi Cape Town SRL",
+          "status": "Simulated match - 20 May|15:00",
+          "comment": "",
+          "match_id": "71501192"
+        }
+      ],
+      "date": "2026-05-20"
+    },
+    {
+      "tournament_index": 33,
+      "tournament_name": "",
+      "total_matches": 1,
+      "matches": [
+        {
+          "match_index": 1,
+          "scraped_at": "2026-05-20T07:08:55.761Z",
+          "home_team": "Durban Super Giants SRL",
+          "away_team": "Pretoria Capitals SRL",
+          "home_score": "160/7",
+          "away_score": "162/5",
+          "status": "Simulated match - Ended",
+          "comment": "Pretoria Capitals SRL have won by 5 wickets (Toss: DSG)",
+          "match_id": "71501190"
+        }
+      ],
+      "date": "2026-05-20"
+    },
+    {
+      "tournament_index": 34,
+      "tournament_name": "",
+      "total_matches": 1,
+      "matches": [
+        {
+          "match_index": 1,
+          "scraped_at": "2026-05-20T07:08:55.761Z",
+          "home_team": "Kolkata Knight Riders",
+          "away_team": "Mumbai Indians",
+          "status": "20 May|19:00",
+          "comment": "",
+          "match_id": "70343214"
+        }
+      ],
+      "date": "2026-05-20"
+    },
+    {
+      "tournament_index": 35,
+      "tournament_name": "",
+      "total_matches": 1,
+      "matches": [
+        {
+          "match_index": 1,
+          "scraped_at": "2026-05-20T07:08:55.761Z",
+          "home_team": "Barbados Royals SRL",
+          "away_team": "St Lucia Kings SRL",
+          "home_score": "166/6",
+          "away_score": "178/3",
+          "status": "Simulated match - Ended",
+          "comment": "St Lucia Kings SRL have won by 12 runs (Toss: BR)",
+          "match_id": "71501064"
+        }
+      ],
+      "date": "2026-05-20"
+    },
+    {
+      "tournament_index": 36,
+      "tournament_name": "",
+      "total_matches": 1,
+      "matches": [
+        {
+          "match_index": 1,
+          "scraped_at": "2026-05-20T07:08:55.761Z",
+          "home_team": "Guyana Amazon Warriors SRL",
+          "away_team": "Antigua And Barbuda Falcons SRL",
+          "home_score": "201/3",
+          "away_score": "191/1",
+          "status": "Simulated match - Ended",
+          "comment": "Guyana Amazon Warriors SRL have won by 10 runs (Toss: GAW)",
+          "match_id": "71501066"
+        }
+      ],
+      "date": "2026-05-20"
+    },
+    {
+      "tournament_index": 37,
+      "tournament_name": "",
+      "total_matches": 1,
+      "matches": [
+        {
+          "match_index": 1,
+          "scraped_at": "2026-05-20T07:08:55.761Z",
+          "home_team": "St Kitts And Nevis Patriots SRL",
+          "away_team": "Trinbago Knight Riders SRL",
+          "status": "Simulated match - 20 May|21:00",
+          "comment": "",
+          "match_id": "71501068"
+        }
+      ],
+      "date": "2026-05-20"
+    },
+    {
+      "tournament_index": 38,
+      "tournament_name": "",
+      "total_matches": 1,
+      "matches": [
+        {
+          "match_index": 1,
+          "scraped_at": "2026-05-20T07:08:55.761Z",
+          "home_team": "Mis-E-Ainak Knights",
+          "away_team": "Boost Defenders",
+          "home_score": "Yet to bat",
+          "away_score": "150/3",
+          "status": "INN 1 | 35.1/50 OV",
+          "comment": "Boost Defenders are 150 for 3 after 35.1 overs.",
+          "match_id": "71512900"
+        }
+      ],
+      "date": "2026-05-20"
+    },
+    {
+      "tournament_index": 39,
+      "tournament_name": "",
+      "total_matches": 1,
+      "matches": [
+        {
+          "match_index": 1,
+          "scraped_at": "2026-05-20T07:08:55.761Z",
+          "home_team": "Scotland",
+          "away_team": "USA",
+          "home_score": "169/10",
+          "away_score": "Yet to bat",
+          "status": "INN 1 | 43.3/50 OV",
+          "comment": "Scotland are 169 for 10 after 43.3 overs.",
+          "match_id": "70643996"
+        }
+      ],
+      "date": "2026-05-20"
+    },
+    {
+      "tournament_index": 40,
+      "tournament_name": "",
+      "total_matches": 1,
+      "matches": [
+        {
+          "match_index": 1,
+          "scraped_at": "2026-05-20T07:08:55.761Z",
+          "home_team": "England",
+          "away_team": "New Zealand",
+          "status": "20 May|22:30",
+          "comment": "",
+          "match_id": "66650116"
+        }
+      ],
+      "date": "2026-05-20"
+    }
+  ]
+}

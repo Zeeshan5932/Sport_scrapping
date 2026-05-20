@@ -1,2 +1,5 @@
 playwright
-asyncio
+aiofiles
+orjson
+rich
+loguru
