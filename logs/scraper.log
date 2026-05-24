@@ -4963,3 +4963,219 @@
 
 2026-05-20 12:09:52,300 [INFO] 
 🛑 SCRAPER STOPPED
+2026-05-24 22:00:33,837 [INFO] ══════════════════════════════════════
+2026-05-24 22:00:33,839 [INFO] 🔥 LIVE CRICKET SCRAPER STARTED
+2026-05-24 22:00:33,839 [INFO] ══════════════════════════════════════
+2026-05-24 22:00:33,840 [INFO] ⏱ Updating every 60 seconds
+2026-05-24 22:00:33,846 [INFO] ══════════════════════════════════════
+2026-05-24 22:00:33,847 [INFO] 🚀 LIVE SCRAPING STARTED
+2026-05-24 22:00:33,848 [INFO] 📅 DATE: 2026-05-24
+2026-05-24 22:00:33,848 [INFO] ══════════════════════════════════════
+2026-05-24 22:00:40,584 [INFO] 🌐 Opening: https://sportcenter.sir.sportradar.com/cricket-lmt
+2026-05-24 22:00:42,483 [INFO] ⏳ Waiting for matches...
+2026-05-24 22:00:44,492 [INFO] ✅ Match data loaded
+2026-05-24 22:00:49,544 [INFO] 🏏  → 1 matches
+2026-05-24 22:00:49,544 [INFO]    Perth Scorchers SRL 211/6 vs Adelaide Strikers SRL 164/8 | Ended
+2026-05-24 22:00:49,545 [INFO] 🏏  → 1 matches
+2026-05-24 22:00:49,546 [INFO]    Adelaide Strikers SRL 120/10 vs Sydney Sixers SRL 140/7 | Ended
+2026-05-24 22:00:49,546 [INFO] 🏏  → 1 matches
+2026-05-24 22:00:49,546 [INFO]    Sydney Thunder SRL 156/10 vs Hobart Hurricanes SRL 173/6 | Ended
+2026-05-24 22:00:49,547 [INFO] 🏏  → 1 matches
+2026-05-24 22:00:49,547 [INFO]    Sydney Sixers SRL 192/3 vs Brisbane Heat SRL 188/6 | Ended
+2026-05-24 22:00:49,547 [INFO] 🏏  → 1 matches
+2026-05-24 22:00:49,548 [INFO]    Johor 155/10 vs Perak 321/8 | Ended
+2026-05-24 22:00:49,548 [INFO] 🏏  → 1 matches
+2026-05-24 22:00:49,549 [INFO]    Paarl Royals SRL 169/5 vs Durban Super Giants SRL 170/2 | Simulated match - Ended
+2026-05-24 22:00:49,550 [INFO] 🏏  → 1 matches
+2026-05-24 22:00:49,550 [INFO]    Sunrisers Eastern Cape SRL 174/7 vs Mi Cape Town SRL 203/5 | Simulated match - Ended
+2026-05-24 22:00:49,551 [INFO] 🏏  → 1 matches
+2026-05-24 22:00:49,551 [INFO]    Joburg Super Kings SRL  vs Pretoria Capitals SRL  | Simulated match - 24 May|23:00
+2026-05-24 22:00:49,551 [INFO] 🏏  → 1 matches
+2026-05-24 22:00:49,551 [INFO]    Worcestershire 91/10 vs Northamptonshire 191 All Out | Ended
+2026-05-24 22:00:49,552 [INFO] 🏏  → 1 matches
+2026-05-24 22:00:49,552 [INFO]    Durham 150/4 vs Leicestershire 148/8 | Ended
+2026-05-24 22:00:49,553 [INFO] 🏏  → 1 matches
+2026-05-24 22:00:49,555 [INFO]    Middlesex 143/8 vs Surrey 144/4 | Ended
+2026-05-24 22:00:49,555 [INFO] 🏏  → 1 matches
+2026-05-24 22:00:49,556 [INFO]    Yorkshire 139/8 vs Derbyshire 194/4 | INN 2 | 15.3/20 OV
+2026-05-24 22:00:49,556 [INFO] 🏏  → 1 matches
+2026-05-24 22:00:49,557 [INFO]    Warwickshire 189/6 vs Somerset 122/2 | INN 2 | 12.4/20 OV
+2026-05-24 22:00:49,558 [INFO] 🏏  → 1 matches
+2026-05-24 22:00:49,558 [INFO]    Kolkata Knight Riders 92/2 vs Delhi Capitals 203/5 | INN 2 | 8.5/20 OV
+2026-05-24 22:00:49,559 [INFO] 🏏  → 1 matches
+2026-05-24 22:00:49,559 [INFO]    Mumbai Indians 175/9 vs Rajasthan Royals 205/8 | Ended
+2026-05-24 22:00:49,560 [INFO] 🏏  → 1 matches
+2026-05-24 22:00:49,560 [INFO]    Middlesex 115/4 vs Leicestershire Foxes 47/2 | INN 2 | 6.0/20 OV
+2026-05-24 22:00:49,560 [INFO] 🏏  → 1 matches
+2026-05-24 22:00:49,561 [INFO]    Yorkshire 133 All Out vs Surrey 134/6 | Ended
+2026-05-24 22:00:49,561 [INFO] 🏏  → 1 matches
+2026-05-24 22:00:49,561 [INFO]    Durham 178/5 vs Hampshire 146/8 | Ended
+2026-05-24 22:00:49,562 [INFO] 🏏  → 1 matches
+2026-05-24 22:00:49,562 [INFO]    Worcestershire Rapids 101/10 vs Northamptonshire Steelbacks 140/6 | Ended
+2026-05-24 22:00:49,563 [INFO] 🏏  → 1 matches
+2026-05-24 22:00:49,563 [INFO]    Warwickshire 166/9 vs Somerset 167/3 | Ended
+2026-05-24 22:00:49,564 [INFO] 🏏  → 1 matches
+2026-05-24 22:00:49,565 [INFO]    Rwanda 288/2 vs Ivory Coast 17/10 | Ended
+2026-05-24 22:00:49,565 [INFO] 🏏  → 1 matches
+2026-05-24 22:00:49,566 [INFO]    Cameroon 67/9 vs Sierra Leone 64 All Out | Ended
+2026-05-24 22:00:49,566 [INFO] 🏏  → 1 matches
+2026-05-24 22:00:49,567 [INFO]    Botswana 25/0 vs Mali 24 All Out | Ended
+2026-05-24 22:00:49,567 [INFO] 🏏  → 1 matches
+2026-05-24 22:00:49,567 [INFO]    City Blasters 219/7 vs Choiseul Craftmasters 146/10 | Ended
+2026-05-24 22:00:49,568 [INFO] 🏏  → 1 matches
+2026-05-24 22:00:49,568 [INFO]    Southern Sharks Cc 94/3 vs Central Eagles Cc 93 All Out | Ended
+2026-05-24 22:00:49,569 [INFO] 🏏  → 1 matches
+2026-05-24 22:00:49,569 [INFO]    Eastern Elephant Cc 119/5 vs Western Dolphins Cc 117/6 | Ended
+2026-05-24 22:00:49,570 [INFO] 🏏  → 1 matches
+2026-05-24 22:00:49,570 [INFO]    Multan Sultans SRL 149/8 vs Islamabad United SRL 141/8 | Simulated match - Ended
+2026-05-24 22:00:49,571 [INFO] 🏏  → 1 matches
+2026-05-24 22:00:49,571 [INFO]    Karachi Kings SRL 171/6 vs Peshawar Zalmi SRL 157/7 | Simulated match - Ended
+2026-05-24 22:00:49,571 [INFO] 🏏  → 1 matches
+2026-05-24 22:00:49,572 [INFO]    Quetta Gladiators SRL 171/6 vs Lahore Qalandars SRL 172/6 | Simulated match - Ended
+2026-05-24 22:00:49,572 [INFO] 🏏  → 1 matches
+2026-05-24 22:00:49,572 [INFO]    Northern Districts SRL 169/7 vs Auckland SRL 176/5 | Simulated match - Ended
+2026-05-24 22:00:49,573 [INFO] 🏏  → 1 matches
+2026-05-24 22:00:49,573 [INFO]    Auckland SRL 174/2 vs Wellington SRL 173/7 | Simulated match - Ended
+2026-05-24 22:00:49,574 [INFO] 🏏  → 1 matches
+2026-05-24 22:00:49,574 [INFO]    Wellington SRL 190/6 vs Central Districts SRL 140/10 | Simulated match - Ended
+2026-05-24 22:00:49,575 [INFO] 🏏  → 1 matches
+2026-05-24 22:00:49,575 [INFO]    Trinbago Knight Riders SRL 150 All Out vs Antigua And Barbuda Falcons SRL 153/4 | Simulated match - Ended
+2026-05-24 22:00:49,576 [INFO] 🏏  → 1 matches
+2026-05-24 22:00:49,576 [INFO]    Guyana Amazon Warriors SRL 88/3 vs St Lucia Kings SRL Yet to bat | Simulated match - INN 1 | 13.2/20 OV
+2026-05-24 22:00:49,577 [INFO] 🏏  → 1 matches
+2026-05-24 22:00:49,577 [INFO]    St Kitts And Nevis Patriots SRL 152/8 vs Barbados Royals SRL 166 All Out | Simulated match - Ended
+2026-05-24 22:00:49,578 [INFO] 🏏  → 1 matches
+2026-05-24 22:00:49,578 [INFO]    Queens Park Cricket Club I 245/4 vs Marchin Patriots 194/7 | Ended
+2026-05-24 22:00:49,579 [INFO] 🏏  → 1 matches
+2026-05-24 22:00:49,579 [INFO]    Club Sando 213/7 vs Endeavour Sports Club 143/10 | Ended
+2026-05-24 22:00:49,581 [INFO] 🏏  → 1 matches
+2026-05-24 22:00:49,581 [INFO]    Bohemian Cc 115/5 vs Prague Tigers 175/5 | Ended
+2026-05-24 22:00:49,582 [INFO] 🏏  → 1 matches
+2026-05-24 22:00:49,582 [INFO]    Brno Cc 102/7 vs Bohemian Cc 105/3 | Ended
+2026-05-24 22:00:49,583 [INFO] 🏏  → 1 matches
+2026-05-24 22:00:49,583 [INFO]    Bohemian Cc 101/4 vs Prague Tigers 99/3 | Ended
+2026-05-24 22:00:49,584 [INFO] 🏏  → 1 matches
+2026-05-24 22:00:49,584 [INFO]    Brno Cc 90/3 vs Prague Tigers 92/4 | Ended
+2026-05-24 22:00:49,584 [INFO] 🏏  → 1 matches
+2026-05-24 22:00:49,585 [INFO]    New Zealand SRL 134/8 vs West Indies SRL 186/3 | Simulated match - Ended
+2026-05-24 22:00:49,586 [INFO] 🏏  → 1 matches
+2026-05-24 22:00:49,587 [INFO]    England SRL 176/6 vs India SRL 177/2 | Simulated match - Ended
+2026-05-24 22:00:49,588 [INFO] 🏏  → 1 matches
+2026-05-24 22:00:49,588 [INFO]    Pakistan SRL 141/4 vs Sri Lanka SRL 137/8 | Simulated match - Ended
+2026-05-24 22:00:49,589 [INFO] 🏏  → 1 matches
+2026-05-24 22:00:49,589 [INFO]    South Africa SRL 148/7 vs Australia SRL 159/8 | Simulated match - Ended
+2026-05-24 22:00:49,590 [INFO] 🏏  → 1 matches
+2026-05-24 22:00:49,590 [INFO]    Boost Defenders 235/8 vs Speen Ghar Tigers 236/4 | Ended
+2026-05-24 22:00:49,592 [INFO] 🏏  → 1 matches
+2026-05-24 22:00:49,592 [INFO]    Typhoons 119/8 vs Dragons 120/7 | Ended
+2026-05-24 22:00:50,284 [INFO] 💾 UPDATED: data\cricket_2026-05-24.json
+2026-05-24 22:00:50,288 [INFO] 
+⏳ Waiting 60 sec...
+
+2026-05-24 22:01:50,292 [INFO] ══════════════════════════════════════
+2026-05-24 22:01:50,292 [INFO] 🚀 LIVE SCRAPING STARTED
+2026-05-24 22:01:50,293 [INFO] 📅 DATE: 2026-05-24
+2026-05-24 22:01:50,293 [INFO] ══════════════════════════════════════
+2026-05-24 22:01:52,161 [INFO] 🌐 Opening: https://sportcenter.sir.sportradar.com/cricket-lmt
+2026-05-24 22:01:54,979 [INFO] ⏳ Waiting for matches...
+2026-05-24 22:01:57,304 [INFO] ✅ Match data loaded
+2026-05-24 22:02:02,390 [INFO] 🏏  → 1 matches
+2026-05-24 22:02:02,392 [INFO]    Perth Scorchers SRL 211/6 vs Adelaide Strikers SRL 164/8 | Ended
+2026-05-24 22:02:02,393 [INFO] 🏏  → 1 matches
+2026-05-24 22:02:02,394 [INFO]    Adelaide Strikers SRL 120/10 vs Sydney Sixers SRL 140/7 | Ended
+2026-05-24 22:02:02,395 [INFO] 🏏  → 1 matches
+2026-05-24 22:02:02,397 [INFO]    Sydney Thunder SRL 156/10 vs Hobart Hurricanes SRL 173/6 | Ended
+2026-05-24 22:02:02,398 [INFO] 🏏  → 1 matches
+2026-05-24 22:02:02,399 [INFO]    Sydney Sixers SRL 192/3 vs Brisbane Heat SRL 188/6 | Ended
+2026-05-24 22:02:02,400 [INFO] 🏏  → 1 matches
+2026-05-24 22:02:02,401 [INFO]    Johor 155/10 vs Perak 321/8 | Ended
+2026-05-24 22:02:02,402 [INFO] 🏏  → 1 matches
+2026-05-24 22:02:02,403 [INFO]    Paarl Royals SRL 169/5 vs Durban Super Giants SRL 170/2 | Simulated match - Ended
+2026-05-24 22:02:02,404 [INFO] 🏏  → 1 matches
+2026-05-24 22:02:02,405 [INFO]    Sunrisers Eastern Cape SRL 174/7 vs Mi Cape Town SRL 203/5 | Simulated match - Ended
+2026-05-24 22:02:02,405 [INFO] 🏏  → 1 matches
+2026-05-24 22:02:02,406 [INFO]    Joburg Super Kings SRL  vs Pretoria Capitals SRL  | Simulated match - 24 May|23:00
+2026-05-24 22:02:02,407 [INFO] 🏏  → 1 matches
+2026-05-24 22:02:02,408 [INFO]    Worcestershire 91/10 vs Northamptonshire 191 All Out | Ended
+2026-05-24 22:02:02,411 [INFO] 🏏  → 1 matches
+2026-05-24 22:02:02,412 [INFO]    Durham 150/4 vs Leicestershire 148/8 | Ended
+2026-05-24 22:02:02,413 [INFO] 🏏  → 1 matches
+2026-05-24 22:02:02,415 [INFO]    Middlesex 143/8 vs Surrey 144/4 | Ended
+2026-05-24 22:02:02,417 [INFO] 🏏  → 1 matches
+2026-05-24 22:02:02,418 [INFO]    Yorkshire 140/8 vs Derbyshire 194/4 | INN 2 | 15.4/20 OV
+2026-05-24 22:02:02,419 [INFO] 🏏  → 1 matches
+2026-05-24 22:02:02,419 [INFO]    Warwickshire 189/6 vs Somerset 124/2 | INN 2 | 13.0/20 OV
+2026-05-24 22:02:02,421 [INFO] 🏏  → 1 matches
+2026-05-24 22:02:02,421 [INFO]    Kolkata Knight Riders 93/2 vs Delhi Capitals 203/5 | INN 2 | 9.0/20 OV
+2026-05-24 22:02:02,422 [INFO] 🏏  → 1 matches
+2026-05-24 22:02:02,422 [INFO]    Mumbai Indians 175/9 vs Rajasthan Royals 205/8 | Ended
+2026-05-24 22:02:02,423 [INFO] 🏏  → 1 matches
+2026-05-24 22:02:02,424 [INFO]    Middlesex 115/4 vs Leicestershire Foxes 47/2 | INN 2 | 6.1/20 OV
+2026-05-24 22:02:02,425 [INFO] 🏏  → 1 matches
+2026-05-24 22:02:02,425 [INFO]    Yorkshire 133 All Out vs Surrey 134/6 | Ended
+2026-05-24 22:02:02,426 [INFO] 🏏  → 1 matches
+2026-05-24 22:02:02,427 [INFO]    Durham 178/5 vs Hampshire 146/8 | Ended
+2026-05-24 22:02:02,428 [INFO] 🏏  → 1 matches
+2026-05-24 22:02:02,428 [INFO]    Worcestershire Rapids 101/10 vs Northamptonshire Steelbacks 140/6 | Ended
+2026-05-24 22:02:02,429 [INFO] 🏏  → 1 matches
+2026-05-24 22:02:02,430 [INFO]    Warwickshire 166/9 vs Somerset 167/3 | Ended
+2026-05-24 22:02:02,430 [INFO] 🏏  → 1 matches
+2026-05-24 22:02:02,432 [INFO]    Rwanda 288/2 vs Ivory Coast 17/10 | Ended
+2026-05-24 22:02:02,435 [INFO] 🏏  → 1 matches
+2026-05-24 22:02:02,436 [INFO]    Cameroon 67/9 vs Sierra Leone 64 All Out | Ended
+2026-05-24 22:02:02,438 [INFO] 🏏  → 1 matches
+2026-05-24 22:02:02,440 [INFO]    Botswana 25/0 vs Mali 24 All Out | Ended
+2026-05-24 22:02:02,441 [INFO] 🏏  → 1 matches
+2026-05-24 22:02:02,442 [INFO]    City Blasters 219/7 vs Choiseul Craftmasters 146/10 | Ended
+2026-05-24 22:02:02,442 [INFO] 🏏  → 1 matches
+2026-05-24 22:02:02,444 [INFO]    Southern Sharks Cc 94/3 vs Central Eagles Cc 93 All Out | Ended
+2026-05-24 22:02:02,444 [INFO] 🏏  → 1 matches
+2026-05-24 22:02:02,445 [INFO]    Eastern Elephant Cc 119/5 vs Western Dolphins Cc 117/6 | Ended
+2026-05-24 22:02:02,446 [INFO] 🏏  → 1 matches
+2026-05-24 22:02:02,449 [INFO]    Multan Sultans SRL 149/8 vs Islamabad United SRL 141/8 | Simulated match - Ended
+2026-05-24 22:02:02,451 [INFO] 🏏  → 1 matches
+2026-05-24 22:02:02,452 [INFO]    Karachi Kings SRL 171/6 vs Peshawar Zalmi SRL 157/7 | Simulated match - Ended
+2026-05-24 22:02:02,452 [INFO] 🏏  → 1 matches
+2026-05-24 22:02:02,453 [INFO]    Quetta Gladiators SRL 171/6 vs Lahore Qalandars SRL 172/6 | Simulated match - Ended
+2026-05-24 22:02:02,453 [INFO] 🏏  → 1 matches
+2026-05-24 22:02:02,454 [INFO]    Northern Districts SRL 169/7 vs Auckland SRL 176/5 | Simulated match - Ended
+2026-05-24 22:02:02,454 [INFO] 🏏  → 1 matches
+2026-05-24 22:02:02,454 [INFO]    Auckland SRL 174/2 vs Wellington SRL 173/7 | Simulated match - Ended
+2026-05-24 22:02:02,455 [INFO] 🏏  → 1 matches
+2026-05-24 22:02:02,455 [INFO]    Wellington SRL 190/6 vs Central Districts SRL 140/10 | Simulated match - Ended
+2026-05-24 22:02:02,456 [INFO] 🏏  → 1 matches
+2026-05-24 22:02:02,456 [INFO]    Trinbago Knight Riders SRL 150 All Out vs Antigua And Barbuda Falcons SRL 153/4 | Simulated match - Ended
+2026-05-24 22:02:02,457 [INFO] 🏏  → 1 matches
+2026-05-24 22:02:02,458 [INFO]    Guyana Amazon Warriors SRL 89/3 vs St Lucia Kings SRL Yet to bat | Simulated match - INN 1 | 14.1/20 OV
+2026-05-24 22:02:02,458 [INFO] 🏏  → 1 matches
+2026-05-24 22:02:02,459 [INFO]    St Kitts And Nevis Patriots SRL 152/8 vs Barbados Royals SRL 166 All Out | Simulated match - Ended
+2026-05-24 22:02:02,459 [INFO] 🏏  → 1 matches
+2026-05-24 22:02:02,460 [INFO]    Queens Park Cricket Club I 245/4 vs Marchin Patriots 194/7 | Ended
+2026-05-24 22:02:02,460 [INFO] 🏏  → 1 matches
+2026-05-24 22:02:02,461 [INFO]    Club Sando 213/7 vs Endeavour Sports Club 143/10 | Ended
+2026-05-24 22:02:02,461 [INFO] 🏏  → 1 matches
+2026-05-24 22:02:02,462 [INFO]    Bohemian Cc 115/5 vs Prague Tigers 175/5 | Ended
+2026-05-24 22:02:02,462 [INFO] 🏏  → 1 matches
+2026-05-24 22:02:02,463 [INFO]    Brno Cc 102/7 vs Bohemian Cc 105/3 | Ended
+2026-05-24 22:02:02,463 [INFO] 🏏  → 1 matches
+2026-05-24 22:02:02,464 [INFO]    Bohemian Cc 101/4 vs Prague Tigers 99/3 | Ended
+2026-05-24 22:02:02,464 [INFO] 🏏  → 1 matches
+2026-05-24 22:02:02,464 [INFO]    Brno Cc 90/3 vs Prague Tigers 92/4 | Ended
+2026-05-24 22:02:02,465 [INFO] 🏏  → 1 matches
+2026-05-24 22:02:02,466 [INFO]    New Zealand SRL 134/8 vs West Indies SRL 186/3 | Simulated match - Ended
+2026-05-24 22:02:02,466 [INFO] 🏏  → 1 matches
+2026-05-24 22:02:02,466 [INFO]    England SRL 176/6 vs India SRL 177/2 | Simulated match - Ended
+2026-05-24 22:02:02,467 [INFO] 🏏  → 1 matches
+2026-05-24 22:02:02,467 [INFO]    Pakistan SRL 141/4 vs Sri Lanka SRL 137/8 | Simulated match - Ended
+2026-05-24 22:02:02,468 [INFO] 🏏  → 1 matches
+2026-05-24 22:02:02,468 [INFO]    South Africa SRL 148/7 vs Australia SRL 159/8 | Simulated match - Ended
+2026-05-24 22:02:02,468 [INFO] 🏏  → 1 matches
+2026-05-24 22:02:02,469 [INFO]    Boost Defenders 235/8 vs Speen Ghar Tigers 236/4 | Ended
+2026-05-24 22:02:02,469 [INFO] 🏏  → 1 matches
+2026-05-24 22:02:02,470 [INFO]    Typhoons 119/8 vs Dragons 120/7 | Ended
+2026-05-24 22:02:03,235 [INFO] 💾 UPDATED: data\cricket_2026-05-24.json
+2026-05-24 22:02:03,237 [INFO] 
+⏳ Waiting 60 sec...
+
+2026-05-24 22:02:28,924 [INFO] 
+🛑 SCRAPER STOPPED
