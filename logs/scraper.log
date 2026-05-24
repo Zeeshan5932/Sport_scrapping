@@ -5179,3 +5179,437 @@
 
 2026-05-24 22:02:28,924 [INFO] 
 🛑 SCRAPER STOPPED
+2026-05-24 22:09:36,722 [INFO] Scheduler started — daily run at 08:00
+2026-05-24 22:09:36,723 [INFO] Data folder : F:\Sport_scrapping\data
+2026-05-24 22:09:36,724 [INFO] Log folder  : F:\Sport_scrapping\logs
+2026-05-24 22:09:36,724 [INFO] Press Ctrl+C to stop
+
+2026-05-24 22:09:36,724 [INFO] Running immediately on startup...
+2026-05-24 22:09:36,727 [INFO] ══════════════════════════════════════
+2026-05-24 22:09:36,727 [INFO]   Scraping started: 2026-05-24
+2026-05-24 22:09:36,728 [INFO] ══════════════════════════════════════
+2026-05-24 22:09:39,000 [INFO] Opening: https://sportcenter.sir.sportradar.com/cricket-lmt
+2026-05-24 22:09:41,323 [INFO] Waiting for match data to load...
+2026-05-24 22:09:45,742 [INFO] Match data loaded!
+2026-05-24 22:09:45,747 [INFO] Found 47 tournament(s)
+2026-05-24 22:09:45,751 [INFO] 
+Tournament 1: Unknown
+2026-05-24 22:09:45,755 [INFO]   1 match(es)
+2026-05-24 22:09:45,762 [INFO]   [1] Perth Scorchers SRL 211/6 vs Adelaide Strikers SRL 164/8 | Ended
+2026-05-24 22:09:45,762 [INFO]       Clicking to open scorecard...
+2026-05-24 22:09:47,897 [INFO]       Scorecard opened!
+2026-05-24 22:09:47,920 [INFO]       2 innings tab(s)
+2026-05-24 22:09:49,689 [INFO]       PERTH SCORCHERS SRL 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:09:51,392 [INFO]       ADELAIDE STRIKERS SRL 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:09:52,464 [INFO] 
+Tournament 2: Unknown
+2026-05-24 22:09:52,469 [INFO]   1 match(es)
+2026-05-24 22:09:52,476 [INFO]   [1] Adelaide Strikers SRL 120/10 vs Sydney Sixers SRL 140/7 | Ended
+2026-05-24 22:09:52,477 [INFO]       Clicking to open scorecard...
+2026-05-24 22:09:54,588 [INFO]       Scorecard opened!
+2026-05-24 22:09:54,608 [INFO]       2 innings tab(s)
+2026-05-24 22:09:56,276 [INFO]       SYDNEY SIXERS SRL 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:09:57,932 [INFO]       ADELAIDE STRIKERS SRL 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:09:58,992 [INFO] 
+Tournament 3: Unknown
+2026-05-24 22:09:58,999 [INFO]   1 match(es)
+2026-05-24 22:09:59,011 [INFO]   [1] Sydney Thunder SRL 156/10 vs Hobart Hurricanes SRL 173/6 | Ended
+2026-05-24 22:09:59,012 [INFO]       Clicking to open scorecard...
+2026-05-24 22:10:01,086 [INFO]       Scorecard opened!
+2026-05-24 22:10:01,105 [INFO]       2 innings tab(s)
+2026-05-24 22:10:02,742 [INFO]       HOBART HURRICANES SRL 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:10:04,363 [INFO]       SYDNEY THUNDER SRL 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:10:05,407 [INFO] 
+Tournament 4: Unknown
+2026-05-24 22:10:05,412 [INFO]   1 match(es)
+2026-05-24 22:10:05,420 [INFO]   [1] Sydney Sixers SRL 192/3 vs Brisbane Heat SRL 188/6 | Ended
+2026-05-24 22:10:05,421 [INFO]       Clicking to open scorecard...
+2026-05-24 22:10:07,506 [INFO]       Scorecard opened!
+2026-05-24 22:10:07,524 [INFO]       2 innings tab(s)
+2026-05-24 22:10:09,149 [INFO]       BRISBANE HEAT SRL 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:10:10,766 [INFO]       SYDNEY SIXERS SRL 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:10:11,807 [INFO] 
+Tournament 5: Unknown
+2026-05-24 22:10:11,812 [INFO]   1 match(es)
+2026-05-24 22:10:11,819 [INFO]   [1] Johor 155/10 vs Perak 321/8 | Ended
+2026-05-24 22:10:11,819 [INFO]       Clicking to open scorecard...
+2026-05-24 22:10:13,887 [INFO]       Scorecard opened!
+2026-05-24 22:10:13,907 [INFO]       2 innings tab(s)
+2026-05-24 22:10:15,597 [INFO]       PERAK 1ST INNS: 11 batters, 7 bowlers
+2026-05-24 22:10:17,247 [INFO]       JOHOR 1ST INNS: 11 batters, 5 bowlers
+2026-05-24 22:10:18,292 [INFO] 
+Tournament 6: Unknown
+2026-05-24 22:10:18,297 [INFO]   1 match(es)
+2026-05-24 22:10:18,308 [INFO]   [1] Paarl Royals SRL 169/5 vs Durban Super Giants SRL 170/2 | Ended
+2026-05-24 22:10:18,308 [INFO]       Clicking to open scorecard...
+2026-05-24 22:10:20,421 [INFO]       Scorecard opened!
+2026-05-24 22:10:20,436 [INFO]       2 innings tab(s)
+2026-05-24 22:10:22,062 [INFO]       PAARL ROYALS SRL 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:10:23,699 [INFO]       DURBAN SUPER GIANTS SRL 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:10:24,741 [INFO] 
+Tournament 7: Unknown
+2026-05-24 22:10:24,745 [INFO]   1 match(es)
+2026-05-24 22:10:24,750 [INFO]   [1] Sunrisers Eastern Cape SRL 174/7 vs Mi Cape Town SRL 203/5 | Ended
+2026-05-24 22:10:24,750 [INFO]       Clicking to open scorecard...
+2026-05-24 22:10:26,839 [INFO]       Scorecard opened!
+2026-05-24 22:10:26,857 [INFO]       2 innings tab(s)
+2026-05-24 22:10:28,479 [INFO]       MI CAPE TOWN SRL 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:10:30,156 [INFO]       SUNRISERS EASTERN CAPE SRL 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:10:31,227 [INFO] 
+Tournament 8: Unknown
+2026-05-24 22:10:31,232 [INFO]   1 match(es)
+2026-05-24 22:10:31,241 [INFO]   [1] Joburg Super Kings SRL  vs Pretoria Capitals SRL  | 24 May|23:00
+2026-05-24 22:10:31,243 [INFO]       Clicking to open scorecard...
+2026-05-24 22:10:33,350 [INFO]       Scorecard opened!
+2026-05-24 22:10:33,363 [INFO]       0 innings tab(s)
+2026-05-24 22:10:34,428 [INFO] 
+Tournament 9: Unknown
+2026-05-24 22:10:34,433 [INFO]   1 match(es)
+2026-05-24 22:10:34,442 [INFO]   [1] Worcestershire 91/10 vs Northamptonshire 191 All Out | Ended
+2026-05-24 22:10:34,443 [INFO]       Clicking to open scorecard...
+2026-05-24 22:10:36,566 [INFO]       Scorecard opened!
+2026-05-24 22:10:36,590 [INFO]       2 innings tab(s)
+2026-05-24 22:10:38,249 [INFO]       NORTHAMPTONSHIRE 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:10:39,889 [INFO]       WORCESTERSHIRE 1ST INNS: 11 batters, 5 bowlers
+2026-05-24 22:10:40,942 [INFO] 
+Tournament 10: Unknown
+2026-05-24 22:10:40,961 [INFO]   1 match(es)
+2026-05-24 22:10:40,978 [INFO]   [1] Durham 150/4 vs Leicestershire 148/8 | Ended
+2026-05-24 22:10:40,978 [INFO]       Clicking to open scorecard...
+2026-05-24 22:10:43,102 [INFO]       Scorecard opened!
+2026-05-24 22:10:43,117 [INFO]       2 innings tab(s)
+2026-05-24 22:10:44,784 [INFO]       LEICESTERSHIRE 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:10:46,479 [INFO]       DURHAM 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:10:47,525 [INFO] 
+Tournament 11: Unknown
+2026-05-24 22:10:47,529 [INFO]   1 match(es)
+2026-05-24 22:10:47,535 [INFO]   [1] Middlesex 143/8 vs Surrey 144/4 | Ended
+2026-05-24 22:10:47,536 [INFO]       Clicking to open scorecard...
+2026-05-24 22:10:49,633 [INFO]       Scorecard opened!
+2026-05-24 22:10:49,652 [INFO]       2 innings tab(s)
+2026-05-24 22:10:51,279 [INFO]       MIDDLESEX 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:10:52,913 [INFO]       SURREY 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:10:53,942 [INFO] 
+Tournament 12: Unknown
+2026-05-24 22:10:53,946 [INFO]   1 match(es)
+2026-05-24 22:10:53,954 [INFO]   [1] Yorkshire 174/8 vs Derbyshire 194/4 | INN 2 | 18.0/20 OV
+2026-05-24 22:10:53,955 [INFO]       Clicking to open scorecard...
+2026-05-24 22:10:55,993 [INFO]       Scorecard opened!
+2026-05-24 22:10:56,016 [INFO]       2 innings tab(s)
+2026-05-24 22:10:57,658 [INFO]       DERBYSHIRE 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:10:59,253 [INFO]       YORKSHIRE 1ST INNS: 11 batters, 5 bowlers
+2026-05-24 22:11:00,290 [INFO] 
+Tournament 13: Unknown
+2026-05-24 22:11:00,296 [INFO]   1 match(es)
+2026-05-24 22:11:00,305 [INFO]   [1] Warwickshire 189/6 vs Somerset 159/2 | INN 2 | 15.1/20 OV
+2026-05-24 22:11:00,306 [INFO]       Clicking to open scorecard...
+2026-05-24 22:11:02,432 [INFO]       Scorecard opened!
+2026-05-24 22:11:02,448 [INFO]       2 innings tab(s)
+2026-05-24 22:11:04,089 [INFO]       WARWICKSHIRE 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:11:05,688 [INFO]       SOMERSET 1ST INNS: 11 batters, 7 bowlers
+2026-05-24 22:11:06,720 [INFO] 
+Tournament 14: Unknown
+2026-05-24 22:11:06,723 [INFO]   1 match(es)
+2026-05-24 22:11:06,727 [INFO]   [1] Kolkata Knight Riders 100/3 vs Delhi Capitals 203/5 | INN 2 | 10.4/20 OV
+2026-05-24 22:11:06,727 [INFO]       Clicking to open scorecard...
+2026-05-24 22:11:08,783 [INFO]       Scorecard opened!
+2026-05-24 22:11:08,793 [INFO]       2 innings tab(s)
+2026-05-24 22:11:10,409 [INFO]       DELHI CAPITALS 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:11:12,029 [INFO]       KOLKATA KNIGHT RIDERS 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:11:13,093 [INFO] 
+Tournament 15: Unknown
+2026-05-24 22:11:13,099 [INFO]   1 match(es)
+2026-05-24 22:11:13,107 [INFO]   [1] Mumbai Indians 175/9 vs Rajasthan Royals 205/8 | Ended
+2026-05-24 22:11:13,108 [INFO]       Clicking to open scorecard...
+2026-05-24 22:11:15,200 [INFO]       Scorecard opened!
+2026-05-24 22:11:15,215 [INFO]       2 innings tab(s)
+2026-05-24 22:11:16,895 [INFO]       RAJASTHAN ROYALS 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:11:18,510 [INFO]       MUMBAI INDIANS 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:11:19,572 [INFO] 
+Tournament 16: Unknown
+2026-05-24 22:11:19,581 [INFO]   1 match(es)
+2026-05-24 22:11:19,598 [INFO]   [1] Middlesex 115/4 vs Leicestershire Foxes 60/3 | INN 2 | 8.4/20 OV
+2026-05-24 22:11:19,598 [INFO]       Clicking to open scorecard...
+2026-05-24 22:11:21,700 [INFO]       Scorecard opened!
+2026-05-24 22:11:21,722 [INFO]       2 innings tab(s)
+2026-05-24 22:11:23,360 [INFO]       MIDDLESEX 1ST INNS: 11 batters, 7 bowlers
+2026-05-24 22:11:25,012 [INFO]       LEICESTERSHIRE FOXES 1ST INNS: 11 batters, 5 bowlers
+2026-05-24 22:11:26,057 [INFO] 
+Tournament 17: Unknown
+2026-05-24 22:11:26,062 [INFO]   1 match(es)
+2026-05-24 22:11:26,069 [INFO]   [1] Yorkshire 133 All Out vs Surrey 134/6 | Ended
+2026-05-24 22:11:26,069 [INFO]       Clicking to open scorecard...
+2026-05-24 22:11:28,184 [INFO]       Scorecard opened!
+2026-05-24 22:11:28,204 [INFO]       2 innings tab(s)
+2026-05-24 22:11:29,898 [INFO]       YORKSHIRE 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:11:31,576 [INFO]       SURREY 1ST INNS: 11 batters, 5 bowlers
+2026-05-24 22:11:32,623 [INFO] 
+Tournament 18: Unknown
+2026-05-24 22:11:32,628 [INFO]   1 match(es)
+2026-05-24 22:11:32,635 [INFO]   [1] Durham 178/5 vs Hampshire 146/8 | Ended
+2026-05-24 22:11:32,636 [INFO]       Clicking to open scorecard...
+2026-05-24 22:11:34,749 [INFO]       Scorecard opened!
+2026-05-24 22:11:34,761 [INFO]       2 innings tab(s)
+2026-05-24 22:11:36,360 [INFO]       DURHAM 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:11:37,986 [INFO]       HAMPSHIRE 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:11:39,014 [INFO] 
+Tournament 19: Unknown
+2026-05-24 22:11:39,019 [INFO]   1 match(es)
+2026-05-24 22:11:39,023 [INFO]   [1] Worcestershire Rapids 101/10 vs Northamptonshire Steelbacks 140/6 | Ended
+2026-05-24 22:11:39,023 [INFO]       Clicking to open scorecard...
+2026-05-24 22:11:41,082 [INFO]       Scorecard opened!
+2026-05-24 22:11:41,099 [INFO]       2 innings tab(s)
+2026-05-24 22:11:42,679 [INFO]       NORTHAMPTONSHIRE STEELBACKS 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:11:44,276 [INFO]       WORCESTERSHIRE RAPIDS 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:11:45,308 [INFO] 
+Tournament 20: Unknown
+2026-05-24 22:11:45,313 [INFO]   1 match(es)
+2026-05-24 22:11:45,334 [INFO]   [1] Warwickshire 166/9 vs Somerset 167/3 | Ended
+2026-05-24 22:11:45,335 [INFO]       Clicking to open scorecard...
+2026-05-24 22:11:47,400 [INFO]       Scorecard opened!
+2026-05-24 22:11:47,412 [INFO]       2 innings tab(s)
+2026-05-24 22:11:49,058 [INFO]       WARWICKSHIRE 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:11:50,657 [INFO]       SOMERSET 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:11:51,689 [INFO] 
+Tournament 21: Unknown
+2026-05-24 22:11:51,694 [INFO]   1 match(es)
+2026-05-24 22:11:51,701 [INFO]   [1] Rwanda 288/2 vs Ivory Coast 17/10 | Ended
+2026-05-24 22:11:51,702 [INFO]       Clicking to open scorecard...
+2026-05-24 22:11:53,762 [INFO]       Scorecard opened!
+2026-05-24 22:11:53,776 [INFO]       2 innings tab(s)
+2026-05-24 22:11:55,377 [INFO]       RWANDA 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:11:56,988 [INFO]       IVORY COAST 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:11:58,022 [INFO] 
+Tournament 22: Unknown
+2026-05-24 22:11:58,026 [INFO]   1 match(es)
+2026-05-24 22:11:58,033 [INFO]   [1] Cameroon 67/9 vs Sierra Leone 64 All Out | Ended
+2026-05-24 22:11:58,034 [INFO]       Clicking to open scorecard...
+2026-05-24 22:12:00,082 [INFO]       Scorecard opened!
+2026-05-24 22:12:00,098 [INFO]       2 innings tab(s)
+2026-05-24 22:12:01,675 [INFO]       SIERRA LEONE 1ST INNS: 11 batters, 5 bowlers
+2026-05-24 22:12:03,276 [INFO]       CAMEROON 1ST INNS: 11 batters, 5 bowlers
+2026-05-24 22:12:04,306 [INFO] 
+Tournament 23: Unknown
+2026-05-24 22:12:04,311 [INFO]   1 match(es)
+2026-05-24 22:12:04,322 [INFO]   [1] Botswana 25/0 vs Mali 24 All Out | Ended
+2026-05-24 22:12:04,322 [INFO]       Clicking to open scorecard...
+2026-05-24 22:12:06,372 [INFO]       Scorecard opened!
+2026-05-24 22:12:06,392 [INFO]       2 innings tab(s)
+2026-05-24 22:12:08,057 [INFO]       MALI 1ST INNS: 11 batters, 5 bowlers
+2026-05-24 22:12:09,686 [INFO]       BOTSWANA 1ST INNS: 11 batters, 2 bowlers
+2026-05-24 22:12:10,727 [INFO] 
+Tournament 24: Unknown
+2026-05-24 22:12:10,734 [INFO]   1 match(es)
+2026-05-24 22:12:10,743 [INFO]   [1] City Blasters 219/7 vs Choiseul Craftmasters 146/10 | Ended
+2026-05-24 22:12:10,743 [INFO]       Clicking to open scorecard...
+2026-05-24 22:12:12,847 [INFO]       Scorecard opened!
+2026-05-24 22:12:12,864 [INFO]       2 innings tab(s)
+2026-05-24 22:12:14,529 [INFO]       CITY BLASTERS 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:12:16,175 [INFO]       CHOISEUL CRAFTMASTERS 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:12:17,229 [INFO] 
+Tournament 25: Unknown
+2026-05-24 22:12:17,236 [INFO]   1 match(es)
+2026-05-24 22:12:17,245 [INFO]   [1] Southern Sharks Cc 94/3 vs Central Eagles Cc 93 All Out | Ended
+2026-05-24 22:12:17,246 [INFO]       Clicking to open scorecard...
+2026-05-24 22:12:19,364 [INFO]       Scorecard opened!
+2026-05-24 22:12:19,387 [INFO]       2 innings tab(s)
+2026-05-24 22:12:21,068 [INFO]       CENTRAL EAGLES CC 1ST INNS: 11 batters, 5 bowlers
+2026-05-24 22:12:22,757 [INFO]       SOUTHERN SHARKS CC 1ST INNS: 11 batters, 8 bowlers
+2026-05-24 22:12:23,803 [INFO] 
+Tournament 26: Unknown
+2026-05-24 22:12:23,811 [INFO]   1 match(es)
+2026-05-24 22:12:23,822 [INFO]   [1] Eastern Elephant Cc 119/5 vs Western Dolphins Cc 117/6 | Ended
+2026-05-24 22:12:23,822 [INFO]       Clicking to open scorecard...
+2026-05-24 22:12:25,926 [INFO]       Scorecard opened!
+2026-05-24 22:12:25,942 [INFO]       2 innings tab(s)
+2026-05-24 22:12:27,596 [INFO]       WESTERN DOLPHINS CC 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:12:29,204 [INFO]       EASTERN ELEPHANT CC 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:12:30,237 [INFO] 
+Tournament 27: Unknown
+2026-05-24 22:12:30,243 [INFO]   1 match(es)
+2026-05-24 22:12:30,252 [INFO]   [1] Multan Sultans SRL 149/8 vs Islamabad United SRL 141/8 | Ended
+2026-05-24 22:12:30,254 [INFO]       Clicking to open scorecard...
+2026-05-24 22:12:32,371 [INFO]       Scorecard opened!
+2026-05-24 22:12:32,387 [INFO]       2 innings tab(s)
+2026-05-24 22:12:34,043 [INFO]       MULTAN SULTANS SRL 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:12:35,773 [INFO]       ISLAMABAD UNITED SRL 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:12:36,852 [INFO] 
+Tournament 28: Unknown
+2026-05-24 22:12:36,859 [INFO]   1 match(es)
+2026-05-24 22:12:36,873 [INFO]   [1] Karachi Kings SRL 171/6 vs Peshawar Zalmi SRL 157/7 | Ended
+2026-05-24 22:12:36,874 [INFO]       Clicking to open scorecard...
+2026-05-24 22:12:38,962 [INFO]       Scorecard opened!
+2026-05-24 22:12:38,988 [INFO]       2 innings tab(s)
+2026-05-24 22:12:40,649 [INFO]       KARACHI KINGS SRL 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:12:42,331 [INFO]       PESHAWAR ZALMI SRL 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:12:43,404 [INFO] 
+Tournament 29: Unknown
+2026-05-24 22:12:43,409 [INFO]   1 match(es)
+2026-05-24 22:12:43,418 [INFO]   [1] Quetta Gladiators SRL 171/6 vs Lahore Qalandars SRL 172/6 | Ended
+2026-05-24 22:12:43,419 [INFO]       Clicking to open scorecard...
+2026-05-24 22:12:45,521 [INFO]       Scorecard opened!
+2026-05-24 22:12:45,562 [INFO]       2 innings tab(s)
+2026-05-24 22:12:47,271 [INFO]       QUETTA GLADIATORS SRL 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:12:48,904 [INFO]       LAHORE QALANDARS SRL 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:12:49,949 [INFO] 
+Tournament 30: Unknown
+2026-05-24 22:12:49,954 [INFO]   1 match(es)
+2026-05-24 22:12:49,962 [INFO]   [1] Northern Districts SRL 169/7 vs Auckland SRL 176/5 | Ended
+2026-05-24 22:12:49,962 [INFO]       Clicking to open scorecard...
+2026-05-24 22:12:52,027 [INFO]       Scorecard opened!
+2026-05-24 22:12:52,041 [INFO]       2 innings tab(s)
+2026-05-24 22:12:53,700 [INFO]       AUCKLAND SRL 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:12:55,353 [INFO]       NORTHERN DISTRICTS SRL 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:12:56,399 [INFO] 
+Tournament 31: Unknown
+2026-05-24 22:12:56,403 [INFO]   1 match(es)
+2026-05-24 22:12:56,408 [INFO]   [1] Auckland SRL 174/2 vs Wellington SRL 173/7 | Ended
+2026-05-24 22:12:56,408 [INFO]       Clicking to open scorecard...
+2026-05-24 22:12:58,493 [INFO]       Scorecard opened!
+2026-05-24 22:12:58,516 [INFO]       2 innings tab(s)
+2026-05-24 22:13:00,161 [INFO]       WELLINGTON SRL 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:13:01,802 [INFO]       AUCKLAND SRL 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:13:02,849 [INFO] 
+Tournament 32: Unknown
+2026-05-24 22:13:02,855 [INFO]   1 match(es)
+2026-05-24 22:13:02,863 [INFO]   [1] Wellington SRL 190/6 vs Central Districts SRL 140/10 | Ended
+2026-05-24 22:13:02,864 [INFO]       Clicking to open scorecard...
+2026-05-24 22:13:04,942 [INFO]       Scorecard opened!
+2026-05-24 22:13:04,953 [INFO]       2 innings tab(s)
+2026-05-24 22:13:06,566 [INFO]       WELLINGTON SRL 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:13:08,168 [INFO]       CENTRAL DISTRICTS SRL 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:13:09,220 [INFO] 
+Tournament 33: Unknown
+2026-05-24 22:13:09,225 [INFO]   1 match(es)
+2026-05-24 22:13:09,235 [INFO]   [1] Trinbago Knight Riders SRL 150 All Out vs Antigua And Barbuda Falcons SRL 153/4 | Ended
+2026-05-24 22:13:09,236 [INFO]       Clicking to open scorecard...
+2026-05-24 22:13:11,320 [INFO]       Scorecard opened!
+2026-05-24 22:13:11,344 [INFO]       2 innings tab(s)
+2026-05-24 22:13:12,992 [INFO]       TRINBAGO KNIGHT RIDERS SRL 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:13:14,704 [INFO]       ANTIGUA AND BARBUDA FALCONS SRL 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:13:15,754 [INFO] 
+Tournament 34: Unknown
+2026-05-24 22:13:15,759 [INFO]   1 match(es)
+2026-05-24 22:13:15,769 [INFO]   [1] Guyana Amazon Warriors SRL 144/7 vs St Lucia Kings SRL Yet to bat | INN 1 | 19.0/20 OV
+2026-05-24 22:13:15,770 [INFO]       Clicking to open scorecard...
+2026-05-24 22:13:17,861 [INFO]       Scorecard opened!
+2026-05-24 22:13:17,870 [INFO]       0 innings tab(s)
+2026-05-24 22:13:18,918 [INFO] 
+Tournament 35: Unknown
+2026-05-24 22:13:18,924 [INFO]   1 match(es)
+2026-05-24 22:13:18,934 [INFO]   [1] St Kitts And Nevis Patriots SRL 152/8 vs Barbados Royals SRL 166 All Out | Ended
+2026-05-24 22:13:18,936 [INFO]       Clicking to open scorecard...
+2026-05-24 22:13:21,027 [INFO]       Scorecard opened!
+2026-05-24 22:13:21,044 [INFO]       2 innings tab(s)
+2026-05-24 22:13:22,691 [INFO]       BARBADOS ROYALS SRL 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:13:24,340 [INFO]       ST KITTS AND NEVIS PATRIOTS SRL 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:13:25,402 [INFO] 
+Tournament 36: Unknown
+2026-05-24 22:13:25,408 [INFO]   1 match(es)
+2026-05-24 22:13:25,415 [INFO]   [1] Queens Park Cricket Club I 245/4 vs Marchin Patriots 194/7 | Ended
+2026-05-24 22:13:25,416 [INFO]       Clicking to open scorecard...
+2026-05-24 22:13:27,510 [INFO]       Scorecard opened!
+2026-05-24 22:13:27,528 [INFO]       2 innings tab(s)
+2026-05-24 22:13:29,205 [INFO]       QUEENS PARK CRICKET CLUB I 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:13:30,855 [INFO]       MARCHIN PATRIOTS 1ST INNS: 11 batters, 9 bowlers
+2026-05-24 22:13:31,902 [INFO] 
+Tournament 37: Unknown
+2026-05-24 22:13:31,907 [INFO]   1 match(es)
+2026-05-24 22:13:31,916 [INFO]   [1] Club Sando 213/7 vs Endeavour Sports Club 143/10 | Ended
+2026-05-24 22:13:31,917 [INFO]       Clicking to open scorecard...
+2026-05-24 22:13:34,045 [INFO]       Scorecard opened!
+2026-05-24 22:13:34,063 [INFO]       2 innings tab(s)
+2026-05-24 22:13:35,739 [INFO]       CLUB SANDO 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:13:37,404 [INFO]       ENDEAVOUR SPORTS CLUB 1ST INNS: 11 batters, 7 bowlers
+2026-05-24 22:13:38,452 [INFO] 
+Tournament 38: Unknown
+2026-05-24 22:13:38,459 [INFO]   1 match(es)
+2026-05-24 22:13:38,468 [INFO]   [1] Bohemian Cc 115/5 vs Prague Tigers 175/5 | Ended
+2026-05-24 22:13:38,469 [INFO]       Clicking to open scorecard...
+2026-05-24 22:13:40,557 [INFO]       Scorecard opened!
+2026-05-24 22:13:40,574 [INFO]       2 innings tab(s)
+2026-05-24 22:13:42,222 [INFO]       PRAGUE TIGERS 1ST INNS: 11 batters, 7 bowlers
+2026-05-24 22:13:43,884 [INFO]       BOHEMIAN CC 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:13:44,935 [INFO] 
+Tournament 39: Unknown
+2026-05-24 22:13:44,941 [INFO]   1 match(es)
+2026-05-24 22:13:44,950 [INFO]   [1] Brno Cc 102/7 vs Bohemian Cc 105/3 | Ended
+2026-05-24 22:13:44,950 [INFO]       Clicking to open scorecard...
+2026-05-24 22:13:47,011 [INFO]       Scorecard opened!
+2026-05-24 22:13:47,026 [INFO]       2 innings tab(s)
+2026-05-24 22:13:48,702 [INFO]       BRNO CC 1ST INNS: 11 batters, 5 bowlers
+2026-05-24 22:13:50,350 [INFO]       BOHEMIAN CC 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:13:51,387 [INFO] 
+Tournament 40: Unknown
+2026-05-24 22:13:51,393 [INFO]   1 match(es)
+2026-05-24 22:13:51,402 [INFO]   [1] Bohemian Cc 101/4 vs Prague Tigers 99/3 | Ended
+2026-05-24 22:13:51,403 [INFO]       Clicking to open scorecard...
+2026-05-24 22:13:53,475 [INFO]       Scorecard opened!
+2026-05-24 22:13:53,483 [INFO]       2 innings tab(s)
+2026-05-24 22:13:55,094 [INFO]       PRAGUE TIGERS 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:13:56,736 [INFO]       BOHEMIAN CC 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:13:57,785 [INFO] 
+Tournament 41: Unknown
+2026-05-24 22:13:57,790 [INFO]   1 match(es)
+2026-05-24 22:13:57,799 [INFO]   [1] Brno Cc 90/3 vs Prague Tigers 92/4 | Ended
+2026-05-24 22:13:57,799 [INFO]       Clicking to open scorecard...
+2026-05-24 22:13:59,891 [INFO]       Scorecard opened!
+2026-05-24 22:13:59,911 [INFO]       2 innings tab(s)
+2026-05-24 22:14:01,553 [INFO]       BRNO CC 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:14:03,188 [INFO]       PRAGUE TIGERS 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:14:04,235 [INFO] 
+Tournament 42: Unknown
+2026-05-24 22:14:04,241 [INFO]   1 match(es)
+2026-05-24 22:14:04,250 [INFO]   [1] New Zealand SRL 134/8 vs West Indies SRL 186/3 | Ended
+2026-05-24 22:14:04,251 [INFO]       Clicking to open scorecard...
+2026-05-24 22:14:06,315 [INFO]       Scorecard opened!
+2026-05-24 22:14:06,335 [INFO]       2 innings tab(s)
+2026-05-24 22:14:07,963 [INFO]       WEST INDIES SRL 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:14:09,553 [INFO]       NEW ZEALAND SRL 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:14:10,593 [INFO] 
+Tournament 43: Unknown
+2026-05-24 22:14:10,606 [INFO]   1 match(es)
+2026-05-24 22:14:10,621 [INFO]   [1] England SRL 176/6 vs India SRL 177/2 | Ended
+2026-05-24 22:14:10,622 [INFO]       Clicking to open scorecard...
+2026-05-24 22:14:12,722 [INFO]       Scorecard opened!
+2026-05-24 22:14:12,735 [INFO]       2 innings tab(s)
+2026-05-24 22:14:14,403 [INFO]       ENGLAND SRL 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:14:16,035 [INFO]       INDIA SRL 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:14:17,084 [INFO] 
+Tournament 44: Unknown
+2026-05-24 22:14:17,089 [INFO]   1 match(es)
+2026-05-24 22:14:17,098 [INFO]   [1] Pakistan SRL 141/4 vs Sri Lanka SRL 137/8 | Ended
+2026-05-24 22:14:17,098 [INFO]       Clicking to open scorecard...
+2026-05-24 22:14:19,175 [INFO]       Scorecard opened!
+2026-05-24 22:14:19,196 [INFO]       2 innings tab(s)
+2026-05-24 22:14:20,839 [INFO]       SRI LANKA SRL 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:14:22,484 [INFO]       PAKISTAN SRL 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:14:23,532 [INFO] 
+Tournament 45: Unknown
+2026-05-24 22:14:23,538 [INFO]   1 match(es)
+2026-05-24 22:14:23,546 [INFO]   [1] South Africa SRL 148/7 vs Australia SRL 159/8 | Ended
+2026-05-24 22:14:23,546 [INFO]       Clicking to open scorecard...
+2026-05-24 22:14:25,608 [INFO]       Scorecard opened!
+2026-05-24 22:14:25,626 [INFO]       2 innings tab(s)
+2026-05-24 22:14:27,279 [INFO]       AUSTRALIA SRL 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:14:28,885 [INFO]       SOUTH AFRICA SRL 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:14:29,935 [INFO] 
+Tournament 46: Unknown
+2026-05-24 22:14:29,942 [INFO]   1 match(es)
+2026-05-24 22:14:29,953 [INFO]   [1] Boost Defenders 235/8 vs Speen Ghar Tigers 236/4 | Ended
+2026-05-24 22:14:29,953 [INFO]       Clicking to open scorecard...
+2026-05-24 22:14:32,080 [INFO]       Scorecard opened!
+2026-05-24 22:14:32,101 [INFO]       2 innings tab(s)
+2026-05-24 22:14:33,770 [INFO]       BOOST DEFENDERS 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:14:35,417 [INFO]       SPEEN GHAR TIGERS 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:14:36,466 [INFO] 
+Tournament 47: Unknown
+2026-05-24 22:14:36,472 [INFO]   1 match(es)
+2026-05-24 22:14:36,480 [INFO]   [1] Typhoons 119/8 vs Dragons 120/7 | Ended
+2026-05-24 22:14:36,481 [INFO]       Clicking to open scorecard...
+2026-05-24 22:14:38,558 [INFO]       Scorecard opened!
+2026-05-24 22:14:38,574 [INFO]       2 innings tab(s)
+2026-05-24 22:14:40,218 [INFO]       TYPHOONS 1ST INNS: 11 batters, 5 bowlers
+2026-05-24 22:14:41,870 [INFO]       DRAGONS 1ST INNS: 11 batters, 6 bowlers
+2026-05-24 22:14:43,598 [INFO] 
+DONE — 47 matches saved to data\cricket_2026-05-24.json
