@@ -5613,3 +5613,293 @@ Tournament 47: Unknown
 2026-05-24 22:14:41,870 [INFO]       DRAGONS 1ST INNS: 11 batters, 6 bowlers
 2026-05-24 22:14:43,598 [INFO] 
 DONE — 47 matches saved to data\cricket_2026-05-24.json
+2026-05-25 23:37:17,364 [INFO] ══════════════════════════════════════
+2026-05-25 23:37:17,367 [INFO]   SMART LIVE SCRAPER — 2026-05-25
+2026-05-25 23:37:17,367 [INFO]   Live update every 60s
+2026-05-25 23:37:17,368 [INFO] ══════════════════════════════════════
+2026-05-25 23:37:25,771 [INFO] Opening: https://sportcenter.sir.sportradar.com/cricket-lmt
+2026-05-25 23:37:28,621 [INFO] Waiting for matches to load...
+2026-05-25 23:37:33,752 [INFO] Matches loaded! Starting scrape loop...
+
+2026-05-25 23:37:37,040 [INFO]   [1] NEW: Pakistan SRL 209/3 vs South Africa SRL 188/5 | Ended
+2026-05-25 23:37:40,228 [INFO]        PAKISTAN SRL 1ST INNS: 11 batters | 6 bowlers
+2026-05-25 23:37:41,688 [INFO]        SOUTH AFRICA SRL 1ST INNS: 11 batters | 6 bowlers
+2026-05-25 23:37:42,545 [INFO]        SAVED → data\cricket_2026-05-25.json
+2026-05-25 23:37:42,547 [INFO]        Match ended — will not re-scrape
+2026-05-25 23:37:42,582 [INFO]   [1] NEW: Afghanistan SRL 153/10 vs New Zealand SRL 175/4 | Ended
+2026-05-25 23:37:45,777 [INFO]        NEW ZEALAND SRL 1ST INNS: 11 batters | 6 bowlers
+2026-05-25 23:37:47,176 [INFO]        AFGHANISTAN SRL 1ST INNS: 11 batters | 6 bowlers
+2026-05-25 23:37:48,124 [INFO]        SAVED → data\cricket_2026-05-25.json
+2026-05-25 23:37:48,125 [INFO]        Match ended — will not re-scrape
+2026-05-25 23:37:48,148 [INFO]   [1] NEW: Australia SRL 195/6 vs England SRL 200/6 | Ended
+2026-05-25 23:37:51,223 [INFO]        ENGLAND SRL 1ST INNS: 11 batters | 6 bowlers
+2026-05-25 23:37:52,636 [INFO]        AUSTRALIA SRL 1ST INNS: 11 batters | 6 bowlers
+2026-05-25 23:37:53,520 [INFO]        SAVED → data\cricket_2026-05-25.json
+2026-05-25 23:37:53,520 [INFO]        Match ended — will not re-scrape
+2026-05-25 23:37:53,544 [INFO]   [1] NEW: Bangladesh SRL 165/7 vs Afghanistan SRL 140/10 | Ended
+2026-05-25 23:37:56,594 [INFO]        BANGLADESH SRL 1ST INNS: 11 batters | 6 bowlers
+2026-05-25 23:37:58,016 [INFO]        AFGHANISTAN SRL 1ST INNS: 11 batters | 6 bowlers
+2026-05-25 23:37:58,900 [INFO]        SAVED → data\cricket_2026-05-25.json
+2026-05-25 23:37:58,901 [INFO]        Match ended — will not re-scrape
+2026-05-25 23:37:58,929 [INFO]   [1] NEW: Vra 216/10 vs Voc Rotterdam 219 All Out | Ended
+2026-05-25 23:38:02,016 [INFO]        VOC ROTTERDAM 1ST INNS: 11 batters | 7 bowlers
+2026-05-25 23:38:03,440 [INFO]        VRA 1ST INNS: 11 batters | 7 bowlers
+2026-05-25 23:38:04,316 [INFO]        SAVED → data\cricket_2026-05-25.json
+2026-05-25 23:38:04,316 [INFO]        Match ended — will not re-scrape
+2026-05-25 23:38:04,337 [INFO]   [1] NEW: SV Kampong Cricket 190 All Out vs Vcc 193/4 | Ended
+2026-05-25 23:38:07,453 [INFO]        SV KAMPONG CRICKET 1ST INNS: 11 batters | 6 bowlers
+2026-05-25 23:38:08,837 [INFO]        VCC 1ST INNS: 11 batters | 6 bowlers
+2026-05-25 23:38:09,713 [INFO]        SAVED → data\cricket_2026-05-25.json
+2026-05-25 23:38:09,714 [INFO]        Match ended — will not re-scrape
+2026-05-25 23:38:09,754 [INFO]   [1] NEW: Hermes-Dvs Yet to bat vs Hbs Yet to bat | Ended
+2026-05-25 23:38:12,317 [INFO]        SAVED → data\cricket_2026-05-25.json
+2026-05-25 23:38:12,317 [INFO]        Match ended — will not re-scrape
+2026-05-25 23:38:12,330 [INFO]   [1] NEW: Rcc 120 All Out vs HCC 122/5 | Ended
+2026-05-25 23:38:15,371 [INFO]        RCC 1ST INNS: 11 batters | 5 bowlers
+2026-05-25 23:38:16,803 [INFO]        HCC 1ST INNS: 11 batters | 5 bowlers
+2026-05-25 23:38:17,656 [INFO]        SAVED → data\cricket_2026-05-25.json
+2026-05-25 23:38:17,657 [INFO]        Match ended — will not re-scrape
+2026-05-25 23:38:17,680 [INFO]   [1] NEW: Sri Lanka A 78 All Out vs New Zealand A 79/5 | Ended
+2026-05-25 23:38:20,715 [INFO]        SRI LANKA A 1ST INNS: 11 batters | 7 bowlers
+2026-05-25 23:38:22,168 [INFO]        NEW ZEALAND A 1ST INNS: 11 batters | 7 bowlers
+2026-05-25 23:38:23,027 [INFO]        SAVED → data\cricket_2026-05-25.json
+2026-05-25 23:38:23,028 [INFO]        Match ended — will not re-scrape
+2026-05-25 23:38:23,050 [INFO]   [1] NEW: England 81/3 vs New Zealand 80 All Out | Ended
+2026-05-25 23:38:26,066 [INFO]        NEW ZEALAND 1ST INNS: 11 batters | 5 bowlers
+2026-05-25 23:38:27,500 [INFO]        ENGLAND 1ST INNS: 11 batters | 5 bowlers
+2026-05-25 23:38:28,359 [INFO]        SAVED → data\cricket_2026-05-25.json
+2026-05-25 23:38:28,359 [INFO]        Match ended — will not re-scrape
+2026-05-25 23:38:28,384 [INFO]   [1] NEW: Band-E-Amir Dragons Yet to bat vs Amo Sharks Yet to bat | Ended
+2026-05-25 23:38:30,856 [INFO]        SAVED → data\cricket_2026-05-25.json
+2026-05-25 23:38:30,857 [INFO]        Match ended — will not re-scrape
+2026-05-25 23:38:30,895 [INFO]   [1] NEW: Adelaide Strikers SRL 184/7 vs Melbourne Stars SRL 174/3 | Ended
+2026-05-25 23:38:33,839 [INFO]        ADELAIDE STRIKERS SRL 1ST INNS: 11 batters | 6 bowlers
+2026-05-25 23:38:35,238 [INFO]        MELBOURNE STARS SRL 1ST INNS: 11 batters | 6 bowlers
+2026-05-25 23:38:36,125 [INFO]        SAVED → data\cricket_2026-05-25.json
+2026-05-25 23:38:36,125 [INFO]        Match ended — will not re-scrape
+2026-05-25 23:38:36,154 [INFO]   [1] NEW: Melbourne Stars SRL 209/5 vs Melbourne Renegades SRL 146/9 | Ended
+2026-05-25 23:38:39,112 [INFO]        MELBOURNE STARS SRL 1ST INNS: 11 batters | 6 bowlers
+2026-05-25 23:38:40,523 [INFO]        MELBOURNE RENEGADES SRL 1ST INNS: 11 batters | 6 bowlers
+2026-05-25 23:38:41,388 [INFO]        SAVED → data\cricket_2026-05-25.json
+2026-05-25 23:38:41,388 [INFO]        Match ended — will not re-scrape
+2026-05-25 23:38:41,414 [INFO]   [1] NEW: Brisbane Heat SRL 207/4 vs Perth Scorchers SRL 169/9 | Ended
+2026-05-25 23:38:44,385 [INFO]        BRISBANE HEAT SRL 1ST INNS: 11 batters | 6 bowlers
+2026-05-25 23:38:45,872 [INFO]        PERTH SCORCHERS SRL 1ST INNS: 11 batters | 6 bowlers
+2026-05-25 23:38:46,743 [INFO]        SAVED → data\cricket_2026-05-25.json
+2026-05-25 23:38:46,745 [INFO]        Match ended — will not re-scrape
+2026-05-25 23:38:46,788 [INFO]   [1] NEW: Durban Super Giants SRL 161/6 vs Joburg Super Kings SRL 162/4 | Ended
+2026-05-25 23:38:49,839 [INFO]        DURBAN SUPER GIANTS SRL 1ST INNS: 11 batters | 6 bowlers
+2026-05-25 23:38:51,178 [INFO]        JOBURG SUPER KINGS SRL 1ST INNS: 11 batters | 6 bowlers
+2026-05-25 23:38:52,079 [INFO]        SAVED → data\cricket_2026-05-25.json
+2026-05-25 23:38:52,079 [INFO]        Match ended — will not re-scrape
+2026-05-25 23:38:52,108 [INFO]   [1] NEW: Mi Cape Town SRL 201/5 vs Paarl Royals SRL 177/7 | Ended
+2026-05-25 23:38:55,093 [INFO]        MI CAPE TOWN SRL 1ST INNS: 11 batters | 6 bowlers
+2026-05-25 23:38:56,461 [INFO]        PAARL ROYALS SRL 1ST INNS: 11 batters | 6 bowlers
+2026-05-25 23:38:57,328 [INFO]        SAVED → data\cricket_2026-05-25.json
+2026-05-25 23:38:57,328 [INFO]        Match ended — will not re-scrape
+2026-05-25 23:38:57,347 [INFO]   [1] NEW: Islamabad United SRL 152/5 vs Multan Sultans SRL 151/6 | Ended
+2026-05-25 23:39:00,355 [INFO]        MULTAN SULTANS SRL 1ST INNS: 11 batters | 6 bowlers
+2026-05-25 23:39:01,871 [INFO]        ISLAMABAD UNITED SRL 1ST INNS: 11 batters | 6 bowlers
+2026-05-25 23:39:02,729 [INFO]        SAVED → data\cricket_2026-05-25.json
+2026-05-25 23:39:02,730 [INFO]        Match ended — will not re-scrape
+2026-05-25 23:39:02,749 [INFO]   [1] LIVE: Lahore Qalandars SRL 115/2 vs Quetta Gladiators SRL Yet to bat | INN 1 | 15.0/20 OV
+2026-05-25 23:39:05,209 [INFO]        SAVED → data\cricket_2026-05-25.json
+2026-05-25 23:39:05,226 [INFO]   [1] NEW: Karachi Kings SRL 129/9 vs Peshawar Zalmi SRL 177/5 | Ended
+2026-05-25 23:39:08,139 [INFO]        PESHAWAR ZALMI SRL 1ST INNS: 11 batters | 6 bowlers
+2026-05-25 23:39:09,530 [INFO]        KARACHI KINGS SRL 1ST INNS: 11 batters | 6 bowlers
+2026-05-25 23:39:10,397 [INFO]        SAVED → data\cricket_2026-05-25.json
+2026-05-25 23:39:10,397 [INFO]        Match ended — will not re-scrape
+2026-05-25 23:39:10,429 [INFO]   [1] NEW: Kent 132/1 vs Sussex Sharks 130/6 | Ended
+2026-05-25 23:39:13,377 [INFO]        SUSSEX SHARKS 1ST INNS: 11 batters | 6 bowlers
+2026-05-25 23:39:14,794 [INFO]        KENT 1ST INNS: 11 batters | 7 bowlers
+2026-05-25 23:39:15,654 [INFO]        SAVED → data\cricket_2026-05-25.json
+2026-05-25 23:39:15,655 [INFO]        Match ended — will not re-scrape
+2026-05-25 23:39:15,685 [INFO]   [1] NEW: Lancashire Thunder 162/5 vs The Blaze 163/7 | Ended
+2026-05-25 23:39:18,646 [INFO]        LANCASHIRE THUNDER 1ST INNS: 11 batters | 6 bowlers
+2026-05-25 23:39:19,984 [INFO]        THE BLAZE 1ST INNS: 11 batters | 6 bowlers
+2026-05-25 23:39:20,852 [INFO]        SAVED → data\cricket_2026-05-25.json
+2026-05-25 23:39:20,853 [INFO]        Match ended — will not re-scrape
+2026-05-25 23:39:20,875 [INFO]   [1] NEW: Gorakhpur Giants 89/4 vs Agra Aces 122/4 | Ended
+2026-05-25 23:39:23,811 [INFO]        AGRA ACES 1ST INNS: 11 batters | 6 bowlers
+2026-05-25 23:39:25,147 [INFO]        GORAKHPUR GIANTS 1ST INNS: 11 batters | 6 bowlers
+2026-05-25 23:39:26,005 [INFO]        SAVED → data\cricket_2026-05-25.json
+2026-05-25 23:39:26,006 [INFO]        Match ended — will not re-scrape
+2026-05-25 23:39:26,026 [INFO]   [1] NEW: Prayagraj Panthers 121/3 vs Lucknow Hunters 122/5 | Ended
+2026-05-25 23:39:28,914 [INFO]        PRAYAGRAJ PANTHERS 1ST INNS: 11 batters | 6 bowlers
+2026-05-25 23:39:30,257 [INFO]        LUCKNOW HUNTERS 1ST INNS: 11 batters | 7 bowlers
+2026-05-25 23:39:31,131 [INFO]        SAVED → data\cricket_2026-05-25.json
+2026-05-25 23:39:31,132 [INFO]        Match ended — will not re-scrape
+2026-05-25 23:39:31,154 [INFO]   [1] NEW: Ghaziabad Gladiators 111/5 vs Saharanpur Strikers 107/5 | Ended
+2026-05-25 23:39:34,047 [INFO]        SAHARANPUR STRIKERS 1ST INNS: 11 batters | 6 bowlers
+2026-05-25 23:39:35,388 [INFO]        GHAZIABAD GLADIATORS 1ST INNS: 11 batters | 6 bowlers
+2026-05-25 23:39:36,280 [INFO]        SAVED → data\cricket_2026-05-25.json
+2026-05-25 23:39:36,282 [INFO]        Match ended — will not re-scrape
+2026-05-25 23:39:36,314 [INFO]   [1] NEW: Kenya 101/9 vs Rwanda 102/8 | Ended
+2026-05-25 23:39:39,263 [INFO]        KENYA 1ST INNS: 11 batters | 6 bowlers
+2026-05-25 23:39:40,596 [INFO]        RWANDA 1ST INNS: 11 batters | 6 bowlers
+2026-05-25 23:39:41,452 [INFO]        SAVED → data\cricket_2026-05-25.json
+2026-05-25 23:39:41,453 [INFO]        Match ended — will not re-scrape
+2026-05-25 23:39:41,473 [INFO]   [1] NEW: Cameroon 78/8 vs Botswana 149/5 | Ended
+2026-05-25 23:39:44,379 [INFO]        BOTSWANA 1ST INNS: 11 batters | 6 bowlers
+2026-05-25 23:39:45,748 [INFO]        CAMEROON 1ST INNS: 11 batters | 7 bowlers
+2026-05-25 23:39:46,602 [INFO]        SAVED → data\cricket_2026-05-25.json
+2026-05-25 23:39:46,603 [INFO]        Match ended — will not re-scrape
+2026-05-25 23:39:46,623 [INFO]   [1] NEW: Ivory Coast 78/5 vs Mali 79/4 | Ended
+2026-05-25 23:39:49,550 [INFO]        IVORY COAST 1ST INNS: 11 batters | 7 bowlers
+2026-05-25 23:39:50,932 [INFO]        MALI 1ST INNS: 11 batters | 4 bowlers
+2026-05-25 23:39:51,792 [INFO]        SAVED → data\cricket_2026-05-25.json
+2026-05-25 23:39:51,793 [INFO]        Match ended — will not re-scrape
+2026-05-25 23:39:51,815 [INFO]   [1] NEW: Central Districts SRL 189/3 vs Northern Districts SRL 187/2 | Ended
+2026-05-25 23:39:54,803 [INFO]        NORTHERN DISTRICTS SRL 1ST INNS: 11 batters | 6 bowlers
+2026-05-25 23:39:56,140 [INFO]        CENTRAL DISTRICTS SRL 1ST INNS: 11 batters | 6 bowlers
+2026-05-25 23:39:57,007 [INFO]        SAVED → data\cricket_2026-05-25.json
+2026-05-25 23:39:57,007 [INFO]        Match ended — will not re-scrape
+2026-05-25 23:39:57,025 [INFO]   [1] NEW: Auckland SRL 165/0 vs Canterbury SRL 163/7 | Ended
+2026-05-25 23:39:59,965 [INFO]        CANTERBURY SRL 1ST INNS: 11 batters | 6 bowlers
+2026-05-25 23:40:01,360 [INFO]        AUCKLAND SRL 1ST INNS: 11 batters | 6 bowlers
+2026-05-25 23:40:02,218 [INFO]        SAVED → data\cricket_2026-05-25.json
+2026-05-25 23:40:02,218 [INFO]        Match ended — will not re-scrape
+2026-05-25 23:40:02,237 [INFO]   [1] NEW: Central Districts SRL 168/8 vs Auckland SRL 193/9 | Ended
+2026-05-25 23:40:05,179 [INFO]        AUCKLAND SRL 1ST INNS: 11 batters | 6 bowlers
+2026-05-25 23:40:06,525 [INFO]        CENTRAL DISTRICTS SRL 1ST INNS: 11 batters | 6 bowlers
+2026-05-25 23:40:07,392 [INFO]        SAVED → data\cricket_2026-05-25.json
+2026-05-25 23:40:07,393 [INFO]        Match ended — will not re-scrape
+2026-05-25 23:40:07,415 [INFO]   [1] LIVE: Victoria Strickers  vs Bunyonyi Warriors  | 25 May|12:00
+2026-05-25 23:40:09,866 [INFO]        SAVED → data\cricket_2026-05-25.json
+2026-05-25 23:40:09,888 [INFO]   [1] LIVE: Bunyonyi Warriors  vs Kyoga Avengers  | 25 May|16:00
+2026-05-25 23:40:12,344 [INFO]        SAVED → data\cricket_2026-05-25.json
+2026-05-25 23:40:12,360 [INFO]   [1] NEW: Delhi Capitals SRL 199/4 vs Royal Challengers Bangalore SRL 200/4 | Ended
+2026-05-25 23:40:15,240 [INFO]        DELHI CAPITALS SRL 1ST INNS: 11 batters | 6 bowlers
+2026-05-25 23:40:16,586 [INFO]        ROYAL CHALLENGERS BANGALORE SRL 1ST INNS: 11 batters | 6 bowlers
+2026-05-25 23:40:17,458 [INFO]        SAVED → data\cricket_2026-05-25.json
+2026-05-25 23:40:17,458 [INFO]        Match ended — will not re-scrape
+2026-05-25 23:40:17,479 [INFO]   [1] NEW: Gujarat Titans SRL 139/9 vs Rajasthan Royals SRL 142/3 | Ended
+2026-05-25 23:40:20,461 [INFO]        GUJARAT TITANS SRL 1ST INNS: 11 batters | 6 bowlers
+2026-05-25 23:40:21,884 [INFO]        RAJASTHAN ROYALS SRL 1ST INNS: 11 batters | 6 bowlers
+2026-05-25 23:40:22,757 [INFO]        SAVED → data\cricket_2026-05-25.json
+2026-05-25 23:40:22,757 [INFO]        Match ended — will not re-scrape
+2026-05-25 23:40:22,775 [INFO]   [1] NEW: Chennai Super Kings SRL 222/7 vs Sunrisers Hyderabad SRL 193/8 | Ended
+2026-05-25 23:40:25,710 [INFO]        CHENNAI SUPER KINGS SRL 1ST INNS: 11 batters | 6 bowlers
+2026-05-25 23:40:27,116 [INFO]        SUNRISERS HYDERABAD SRL 1ST INNS: 11 batters | 6 bowlers
+2026-05-25 23:40:27,996 [INFO]        SAVED → data\cricket_2026-05-25.json
+2026-05-25 23:40:27,996 [INFO]        Match ended — will not re-scrape
+2026-05-25 23:40:28,013 [INFO]   [1] LIVE: Prague Cc  vs United Cc  | 25 May|18:30
+2026-05-25 23:40:30,479 [INFO]        SAVED → data\cricket_2026-05-25.json
+2026-05-25 23:40:30,497 [INFO]   [1] NEW: Prague Cc 129/2 vs United Cc 126/4 | Ended
+2026-05-25 23:40:33,405 [INFO]        UNITED CC 1ST INNS: 11 batters | 6 bowlers
+2026-05-25 23:40:34,752 [INFO]        PRAGUE CC 1ST INNS: 11 batters | 5 bowlers
+2026-05-25 23:40:35,627 [INFO]        SAVED → data\cricket_2026-05-25.json
+2026-05-25 23:40:35,627 [INFO]        Match ended — will not re-scrape
+2026-05-25 23:40:35,647 [INFO]   [1] NEW: Prague Cc 116/3 vs Bohemian Cc 111/2 | Ended
+2026-05-25 23:40:38,543 [INFO]        BOHEMIAN CC 1ST INNS: 11 batters | 6 bowlers
+2026-05-25 23:40:39,936 [INFO]        PRAGUE CC 1ST INNS: 11 batters | 6 bowlers
+2026-05-25 23:40:40,806 [INFO]        SAVED → data\cricket_2026-05-25.json
+2026-05-25 23:40:40,807 [INFO]        Match ended — will not re-scrape
+2026-05-25 23:40:40,824 [INFO]   [1] NEW: United Cc 134/5 vs Bohemian Cc 84/6 | Ended
+2026-05-25 23:40:43,724 [INFO]        UNITED CC 1ST INNS: 11 batters | 6 bowlers
+2026-05-25 23:40:45,083 [INFO]        BOHEMIAN CC 1ST INNS: 11 batters | 5 bowlers
+2026-05-25 23:40:45,965 [INFO]        SAVED → data\cricket_2026-05-25.json
+2026-05-25 23:40:45,966 [INFO]        Match ended — will not re-scrape
+2026-05-25 23:40:45,986 [INFO]   [1] NEW: Antigua And Barbuda Falcons SRL 155/5 vs St Kitts And Nevis Patriots SRL 151/7 | Ended
+2026-05-25 23:40:48,909 [INFO]        ANTIGUA AND BARBUDA FALCONS SRL 1ST INNS: 11 batters | 6 bowlers
+2026-05-25 23:40:50,234 [INFO]        ST KITTS AND NEVIS PATRIOTS SRL 1ST INNS: 11 batters | 6 bowlers
+2026-05-25 23:40:51,121 [INFO]        SAVED → data\cricket_2026-05-25.json
+2026-05-25 23:40:51,121 [INFO]        Match ended — will not re-scrape
+2026-05-25 23:40:51,141 [INFO]   [1] NEW: Barbados Royals SRL 164/5 vs Guyana Amazon Warriors SRL 167/2 | Ended
+2026-05-25 23:40:54,080 [INFO]        BARBADOS ROYALS SRL 1ST INNS: 11 batters | 6 bowlers
+2026-05-25 23:40:55,509 [INFO]        GUYANA AMAZON WARRIORS SRL 1ST INNS: 11 batters | 6 bowlers
+2026-05-25 23:40:56,388 [INFO]        SAVED → data\cricket_2026-05-25.json
+2026-05-25 23:40:56,389 [INFO]        Match ended — will not re-scrape
+2026-05-25 23:40:56,408 [INFO]   [1] NEW: MT Kilimanjaro 69/10 vs MT Rwenzori 109/9 | Ended
+2026-05-25 23:40:59,354 [INFO]        MT RWENZORI 1ST INNS: 11 batters | 6 bowlers
+2026-05-25 23:41:00,738 [INFO]        MT KILIMANJARO 1ST INNS: 11 batters | 6 bowlers
+2026-05-25 23:41:01,618 [INFO]        SAVED → data\cricket_2026-05-25.json
+2026-05-25 23:41:01,619 [INFO]        Match ended — will not re-scrape
+2026-05-25 23:41:01,637 [INFO]   [1] NEW: MT Elgon 67/10 vs MT Karisimbi 125/4 | Ended
+2026-05-25 23:41:04,542 [INFO]        MT KARISIMBI 1ST INNS: 11 batters | 6 bowlers
+2026-05-25 23:41:05,867 [INFO]        MT ELGON 1ST INNS: 11 batters | 7 bowlers
+2026-05-25 23:41:06,745 [INFO]        SAVED → data\cricket_2026-05-25.json
+2026-05-25 23:41:06,745 [INFO]        Match ended — will not re-scrape
+2026-05-25 23:41:06,763 [INFO]   [1] NEW: Lancashire 208/4 vs Nottinghamshire 169/9 | Ended
+2026-05-25 23:41:09,680 [INFO]        LANCASHIRE 1ST INNS: 11 batters | 6 bowlers
+2026-05-25 23:41:11,027 [INFO]        NOTTINGHAMSHIRE 1ST INNS: 11 batters | 5 bowlers
+2026-05-25 23:41:11,908 [INFO]        SAVED → data\cricket_2026-05-25.json
+2026-05-25 23:41:11,909 [INFO]        Match ended — will not re-scrape
+2026-05-25 23:41:11,929 [INFO]   [1] NEW: Kent 199/3 vs Sussex 197/6 | Ended
+2026-05-25 23:41:14,898 [INFO]        SUSSEX 1ST INNS: 11 batters | 7 bowlers
+2026-05-25 23:41:16,275 [INFO]        KENT 1ST INNS: 11 batters | 6 bowlers
+2026-05-25 23:41:17,158 [INFO]        SAVED → data\cricket_2026-05-25.json
+2026-05-25 23:41:17,159 [INFO]        Match ended — will not re-scrape
+2026-05-25 23:41:17,181 [INFO]   [1] NEW: New Territories Tigers 169/6 vs Hong Kong Islanders 173/6 | Ended
+2026-05-25 23:41:20,142 [INFO]        NEW TERRITORIES TIGERS 1ST INNS: 11 batters | 6 bowlers
+2026-05-25 23:41:21,501 [INFO]        HONG KONG ISLANDERS 1ST INNS: 11 batters | 7 bowlers
+2026-05-25 23:41:22,407 [INFO]        SAVED → data\cricket_2026-05-25.json
+2026-05-25 23:41:22,408 [INFO]        Match ended — will not re-scrape
+2026-05-25 23:41:22,438 [INFO]   [1] NEW: Southern Sharks Cc 72/1 vs Eastern Elephant Cc 37/5 | Ended
+2026-05-25 23:41:25,361 [INFO]        SOUTHERN SHARKS CC 1ST INNS: 11 batters | 5 bowlers
+2026-05-25 23:41:26,761 [INFO]        EASTERN ELEPHANT CC 1ST INNS: 11 batters | 5 bowlers
+2026-05-25 23:41:27,640 [INFO]        SAVED → data\cricket_2026-05-25.json
+2026-05-25 23:41:27,641 [INFO]        Match ended — will not re-scrape
+2026-05-25 23:41:27,658 [INFO]   [1] NEW: Typhoons 153/7 vs Dragons 161/4 | Ended
+2026-05-25 23:41:30,587 [INFO]        DRAGONS 1ST INNS: 11 batters | 6 bowlers
+2026-05-25 23:41:31,941 [INFO]        TYPHOONS 1ST INNS: 11 batters | 5 bowlers
+2026-05-25 23:41:32,817 [INFO]        SAVED → data\cricket_2026-05-25.json
+2026-05-25 23:41:32,818 [INFO]        Match ended — will not re-scrape
+2026-05-25 23:41:32,819 [INFO] 
+  Live: 3 | Ended: 44 | Next update in 0s...
+
+2026-05-25 23:41:36,925 [INFO]   [1] SKIP (ended): Pakistan SRL vs South Africa SRL
+2026-05-25 23:41:36,939 [INFO]   [1] SKIP (ended): Afghanistan SRL vs New Zealand SRL
+2026-05-25 23:41:36,954 [INFO]   [1] SKIP (ended): Australia SRL vs England SRL
+2026-05-25 23:41:36,977 [INFO]   [1] SKIP (ended): Bangladesh SRL vs Afghanistan SRL
+2026-05-25 23:41:36,993 [INFO]   [1] SKIP (ended): Vra vs Voc Rotterdam
+2026-05-25 23:41:37,014 [INFO]   [1] SKIP (ended): SV Kampong Cricket vs Vcc
+2026-05-25 23:41:37,034 [INFO]   [1] SKIP (ended): Hermes-Dvs vs Hbs
+2026-05-25 23:41:37,049 [INFO]   [1] SKIP (ended): Rcc vs HCC
+2026-05-25 23:41:37,066 [INFO]   [1] SKIP (ended): Sri Lanka A vs New Zealand A
+2026-05-25 23:41:37,080 [INFO]   [1] SKIP (ended): England vs New Zealand
+2026-05-25 23:41:37,094 [INFO]   [1] SKIP (ended): Band-E-Amir Dragons vs Amo Sharks
+2026-05-25 23:41:37,108 [INFO]   [1] SKIP (ended): Adelaide Strikers SRL vs Melbourne Stars SRL
+2026-05-25 23:41:37,119 [INFO]   [1] SKIP (ended): Melbourne Stars SRL vs Melbourne Renegades SRL
+2026-05-25 23:41:37,132 [INFO]   [1] SKIP (ended): Brisbane Heat SRL vs Perth Scorchers SRL
+2026-05-25 23:41:37,147 [INFO]   [1] SKIP (ended): Durban Super Giants SRL vs Joburg Super Kings SRL
+2026-05-25 23:41:37,162 [INFO]   [1] SKIP (ended): Mi Cape Town SRL vs Paarl Royals SRL
+2026-05-25 23:41:37,179 [INFO]   [1] SKIP (ended): Islamabad United SRL vs Multan Sultans SRL
+2026-05-25 23:41:37,195 [INFO]   [1] LIVE: Lahore Qalandars SRL 129/2 vs Quetta Gladiators SRL Yet to bat | INN 1 | 16.1/20 OV
+2026-05-25 23:41:38,842 [INFO]        LAHORE QALANDARS SRL 1ST INNS: 11 batters | 6 bowlers
+2026-05-25 23:41:39,717 [INFO]        SAVED → data\cricket_2026-05-25.json
+2026-05-25 23:41:39,731 [INFO]   [1] SKIP (ended): Karachi Kings SRL vs Peshawar Zalmi SRL
+2026-05-25 23:41:39,746 [INFO]   [1] SKIP (ended): Kent vs Sussex Sharks
+2026-05-25 23:41:39,765 [INFO]   [1] SKIP (ended): Lancashire Thunder vs The Blaze
+2026-05-25 23:41:39,782 [INFO]   [1] SKIP (ended): Gorakhpur Giants vs Agra Aces
+2026-05-25 23:41:39,800 [INFO]   [1] SKIP (ended): Prayagraj Panthers vs Lucknow Hunters
+2026-05-25 23:41:39,820 [INFO]   [1] SKIP (ended): Ghaziabad Gladiators vs Saharanpur Strikers
+2026-05-25 23:41:39,842 [INFO]   [1] SKIP (ended): Kenya vs Rwanda
+2026-05-25 23:41:39,864 [INFO]   [1] SKIP (ended): Cameroon vs Botswana
+2026-05-25 23:41:39,883 [INFO]   [1] SKIP (ended): Ivory Coast vs Mali
+2026-05-25 23:41:39,900 [INFO]   [1] SKIP (ended): Central Districts SRL vs Northern Districts SRL
+2026-05-25 23:41:39,916 [INFO]   [1] SKIP (ended): Auckland SRL vs Canterbury SRL
+2026-05-25 23:41:39,933 [INFO]   [1] SKIP (ended): Central Districts SRL vs Auckland SRL
+2026-05-25 23:41:39,954 [INFO]   [1] LIVE: Victoria Strickers  vs Bunyonyi Warriors  | 25 May|12:00
+2026-05-25 23:41:42,504 [INFO]        SAVED → data\cricket_2026-05-25.json
+2026-05-25 23:41:42,518 [INFO]   [1] LIVE: Bunyonyi Warriors  vs Kyoga Avengers  | 25 May|16:00
+2026-05-25 23:41:44,936 [INFO]        SAVED → data\cricket_2026-05-25.json
+2026-05-25 23:41:44,950 [INFO]   [1] SKIP (ended): Delhi Capitals SRL vs Royal Challengers Bangalore SRL
+2026-05-25 23:41:44,966 [INFO]   [1] SKIP (ended): Gujarat Titans SRL vs Rajasthan Royals SRL
+2026-05-25 23:41:44,985 [INFO]   [1] SKIP (ended): Chennai Super Kings SRL vs Sunrisers Hyderabad SRL
+2026-05-25 23:41:45,044 [INFO]   [1] SKIP (ended): Prague Cc vs United Cc
+2026-05-25 23:41:45,061 [INFO]   [1] SKIP (ended): Prague Cc vs United Cc
+2026-05-25 23:41:45,082 [INFO]   [1] SKIP (ended): Prague Cc vs Bohemian Cc
+2026-05-25 23:41:45,100 [INFO]   [1] SKIP (ended): United Cc vs Bohemian Cc
+2026-05-25 23:41:45,118 [INFO]   [1] SKIP (ended): Antigua And Barbuda Falcons SRL vs St Kitts And Nevis Patriots SRL
+2026-05-25 23:41:45,137 [INFO]   [1] SKIP (ended): Barbados Royals SRL vs Guyana Amazon Warriors SRL
+2026-05-25 23:41:45,153 [INFO]   [1] SKIP (ended): MT Kilimanjaro vs MT Rwenzori
+2026-05-25 23:41:45,180 [INFO]   [1] SKIP (ended): MT Elgon vs MT Karisimbi
+2026-05-25 23:41:45,201 [INFO]   [1] SKIP (ended): Lancashire vs Nottinghamshire
+2026-05-25 23:41:45,223 [INFO]   [1] SKIP (ended): Kent vs Sussex
+2026-05-25 23:41:45,248 [INFO]   [1] SKIP (ended): New Territories Tigers vs Hong Kong Islanders
+2026-05-25 23:41:45,266 [INFO]   [1] SKIP (ended): Southern Sharks Cc vs Eastern Elephant Cc
+2026-05-25 23:41:45,284 [INFO]   [1] SKIP (ended): Typhoons vs Dragons
+2026-05-25 23:41:45,285 [INFO] 
+  Live: 3 | Ended: 44 | Next update in 48s...
+
