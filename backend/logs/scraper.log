@@ -5903,3 +5903,343 @@ DONE — 47 matches saved to data\cricket_2026-05-24.json
 2026-05-25 23:41:45,285 [INFO] 
   Live: 3 | Ended: 44 | Next update in 48s...
 
+2026-06-05 12:45:48,155 [INFO] ══════════════════════════════════════
+2026-06-05 12:45:48,157 [INFO]   SMART LIVE SCRAPER — 2026-06-05
+2026-06-05 12:45:48,158 [INFO]   Live update every 60s
+2026-06-05 12:45:48,158 [INFO] ══════════════════════════════════════
+2026-06-05 12:45:56,462 [INFO] Opening: https://sportcenter.sir.sportradar.com/cricket-lmt
+2026-06-05 12:45:58,876 [INFO] Waiting for matches to load...
+2026-06-05 12:46:03,876 [INFO] Matches loaded! Starting scrape loop...
+
+2026-06-05 12:46:06,882 [INFO]   [1] LIVE: Eagle Thane Strikers  vs Arcs Andheri  | 05 Jun|13:30
+2026-06-05 12:46:09,454 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:46:09,473 [INFO]   [1] LIVE: Aakash Tigers Mws  vs North Mumbai Panthers  | 05 Jun|18:30
+2026-06-05 12:46:11,884 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:46:11,909 [INFO]   [1] NEW: Gujarat Titans SRL 173/5 vs Mumbai Indians SRL 175/3 | Ended
+2026-06-05 12:46:14,373 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:46:14,373 [INFO]        Match ended — will not re-scrape
+2026-06-05 12:46:14,388 [INFO]   [1] LIVE: Lucknow Super Giants SRL  vs Royal Challengers Bangalore SRL  | 05 Jun|19:00
+2026-06-05 12:46:16,804 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:46:16,823 [INFO]   [1] LIVE: Kolkata Knight Riders SRL  vs Sunrisers Hyderabad SRL  | 05 Jun|14:00
+2026-06-05 12:46:19,278 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:46:19,310 [INFO]   [1] LIVE: Kent  vs Worcestershire Rapids  | 05 Jun|18:30
+2026-06-05 12:46:21,727 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:46:21,749 [INFO]   [1] LIVE: Gloucestershire  vs Middlesex  | 05 Jun|19:00
+2026-06-05 12:46:24,280 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:46:24,298 [INFO]   [1] LIVE: Yorkshire  vs Durham  | 05 Jun|19:00
+2026-06-05 12:46:26,711 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:46:26,730 [INFO]   [1] LIVE: The Blaze  vs Warwickshire  | 05 Jun|18:30
+2026-06-05 12:46:29,126 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:46:29,153 [INFO]   [1] LIVE: Northamptonshire Steelbacks  vs Glamorgan  | 05 Jun|18:30
+2026-06-05 12:46:31,581 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:46:31,600 [INFO]   [1] LIVE: Sussex Sharks  vs Leicestershire Foxes  | 05 Jun|19:00
+2026-06-05 12:46:33,992 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:46:34,004 [INFO]   [1] LIVE: Surrey  vs Essex  | 05 Jun|18:00
+2026-06-05 12:46:36,465 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:46:36,517 [INFO]   [1] NEW: Bahrain 212/8 vs Singapore 210/6 | Ended
+2026-06-05 12:46:39,016 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:46:39,017 [INFO]        Match ended — will not re-scrape
+2026-06-05 12:46:39,054 [INFO]   [1] LIVE: Oman Yet to bat vs Hong Kong, China 197/1 | INN 1 | 15.1/20 OV
+2026-06-05 12:46:41,483 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:46:41,510 [INFO]   [1] LIVE: A4 Power Strikers  vs Diamond Dazzlers  | 05 Jun|19:00
+2026-06-05 12:46:43,963 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:46:43,985 [INFO]   [1] LIVE: Ami Super Avengers  vs Pruthvi Panthers  | 05 Jun|14:00
+2026-06-05 12:46:46,401 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:46:46,421 [INFO]   [1] LIVE: Nottinghamshire  vs Warwickshire  | 05 Jun|22:30
+2026-06-05 12:46:48,872 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:46:48,894 [INFO]   [1] LIVE: Sussex  vs Leicestershire  | 05 Jun|23:00
+2026-06-05 12:46:51,331 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:46:51,351 [INFO]   [1] LIVE: Surrey  vs Hampshire  | 05 Jun|22:30
+2026-06-05 12:46:53,780 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:46:53,820 [INFO]   [1] LIVE: Worcestershire  vs Glamorgan  | 05 Jun|21:30
+2026-06-05 12:46:56,255 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:46:56,284 [INFO]   [1] LIVE: Yorkshire  vs Lancashire  | 05 Jun|23:00
+2026-06-05 12:46:58,729 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:46:58,750 [INFO]   [1] LIVE: Gloucestershire  vs Somerset  | 05 Jun|23:00
+2026-06-05 12:47:01,171 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:47:01,190 [INFO]   [1] LIVE: Wellington SRL 22/0 vs Canterbury SRL 189/4 | INN 2 | 2.3/20 OV
+2026-06-05 12:47:03,662 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:47:03,685 [INFO]   [1] NEW: Northern Districts SRL 148/8 vs Otago SRL 149/3 | Ended
+2026-06-05 12:47:06,114 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:47:06,116 [INFO]        Match ended — will not re-scrape
+2026-06-05 12:47:06,136 [INFO]   [1] LIVE: Malta  vs Norway  | 05 Jun|15:00
+2026-06-05 12:47:08,569 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:47:08,589 [INFO]   [1] LIVE: Austria  vs Sweden  | 05 Jun|18:30
+2026-06-05 12:47:10,997 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:47:11,017 [INFO]   [1] LIVE: Austria  vs Norway  | 05 Jun|11:00
+2026-06-05 12:47:13,437 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:47:13,454 [INFO]   [1] LIVE: Nuwakot  vs Kathmandu  | 05 Jun|12:15
+2026-06-05 12:47:15,901 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:47:15,921 [INFO]   [1] NEW: Chitwan 70/7 vs Bhaktapur 55/8 | Ended
+2026-06-05 12:47:18,374 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:47:18,375 [INFO]        Match ended — will not re-scrape
+2026-06-05 12:47:18,396 [INFO]   [1] LIVE: Multan Sultans SRL  vs Karachi Kings SRL  | 05 Jun|15:00
+2026-06-05 12:47:20,866 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:47:20,888 [INFO]   [1] LIVE: Peshawar Zalmi SRL  vs Lahore Qalandars SRL  | 05 Jun|23:00
+2026-06-05 12:47:23,345 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:47:23,365 [INFO]   [1] NEW: Rawalpindiz Srl 188/1 vs Islamabad United SRL 187/6 | Ended
+2026-06-05 12:47:25,792 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:47:25,792 [INFO]        Match ended — will not re-scrape
+2026-06-05 12:47:25,814 [INFO]   [1] LIVE: Warsaw Cc  vs Warsaw Kings Xi  | 05 Jun|16:30
+2026-06-05 12:47:28,254 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:47:28,280 [INFO]   [1] LIVE: Warsaw Sultans  vs Warsaw Hussars  | 05 Jun|18:30
+2026-06-05 12:47:30,754 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:47:30,778 [INFO]   [1] LIVE: Warsaw Scout  vs Warsaw Thunder  | 05 Jun|14:30
+2026-06-05 12:47:33,262 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:47:33,291 [INFO]   [1] LIVE: Warsaw Elite 33/1 vs Warsaw Zalmi Yet to bat | INN 1 | 2.1/10 OV
+2026-06-05 12:47:35,713 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:47:35,731 [INFO]   [1] LIVE: Vikings Xi  vs Ramana Xi Cricket Club  | 05 Jun|18:30
+2026-06-05 12:47:38,172 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:47:38,198 [INFO]   [1] NEW: Lexus Yet to bat vs Super Strikers Yet to bat | Ended
+2026-06-05 12:47:40,602 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:47:40,602 [INFO]        Match ended — will not re-scrape
+2026-06-05 12:47:40,619 [INFO]   [1] LIVE: Challenging Stars  vs Royal Lions Cc (Kuw)  | 05 Jun|22:00
+2026-06-05 12:47:43,053 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:47:43,071 [INFO]   [1] NEW: Mec Study Group Yet to bat vs Reddy Riders Yet to bat | Ended
+2026-06-05 12:47:45,521 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:47:45,521 [INFO]        Match ended — will not re-scrape
+2026-06-05 12:47:45,537 [INFO]   [1] LIVE: Durban Super Giants SRL 226/1 vs Pretoria Capitals SRL 185/9 | INN 2 | 20.0/20 OV
+2026-06-05 12:47:47,940 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:47:47,956 [INFO]   [1] LIVE: Joburg Super Kings SRL  vs Mi Cape Town SRL  | 05 Jun|18:00
+2026-06-05 12:47:50,402 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:47:50,418 [INFO]   [1] NEW: Sunrisers Eastern Cape SRL 187/3 vs Joburg Super Kings SRL 188/5 | Ended
+2026-06-05 12:47:52,819 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:47:52,820 [INFO]        Match ended — will not re-scrape
+2026-06-05 12:47:52,836 [INFO]   [1] LIVE: Adamas Howrah Warriors  vs Novus Royals Purulia  | 05 Jun|18:30
+2026-06-05 12:47:55,243 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:47:55,265 [INFO]   [1] NEW: Trinbago Knight Riders SRL 172/6 vs Guyana Amazon Warriors SRL 152/9 | Ended
+2026-06-05 12:47:57,718 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:47:57,718 [INFO]        Match ended — will not re-scrape
+2026-06-05 12:47:57,733 [INFO]   [1] NEW: Barbados Royals SRL 175/2 vs St Lucia Kings SRL 174/5 | Ended
+2026-06-05 12:48:00,170 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:48:00,170 [INFO]        Match ended — will not re-scrape
+2026-06-05 12:48:00,186 [INFO]   [1] LIVE: Guyana Amazon Warriors SRL  vs Antigua And Barbuda Falcons SRL  | 05 Jun|16:00
+2026-06-05 12:48:02,589 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:48:02,605 [INFO]   [1] NEW: West Indies SRL 192/5 vs Pakistan SRL 194/4 | Ended
+2026-06-05 12:48:05,009 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:48:05,010 [INFO]        Match ended — will not re-scrape
+2026-06-05 12:48:05,032 [INFO]   [1] LIVE: Afghanistan SRL  vs Sri Lanka SRL  | 05 Jun|21:00
+2026-06-05 12:48:07,468 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:48:07,483 [INFO]   [1] LIVE: Australia SRL  vs India SRL  | 05 Jun|13:00
+2026-06-05 12:48:09,909 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:48:09,925 [INFO]   [1] LIVE: England Lions  vs South Africa A  | 05 Jun|15:00
+2026-06-05 12:48:12,345 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:48:12,361 [INFO]   [1] NEW: Sydney Thunder SRL 178/4 vs Adelaide Strikers SRL 167/9 | Ended
+2026-06-05 12:48:14,780 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:48:14,781 [INFO]        Match ended — will not re-scrape
+2026-06-05 12:48:14,813 [INFO]   [1] LIVE: Melbourne Stars SRL  vs Brisbane Heat SRL  | 05 Jun|17:00
+2026-06-05 12:48:17,261 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:48:17,280 [INFO]   [1] NEW: Melbourne Renegades SRL 152/4 vs Perth Scorchers SRL 151/6 | Ended
+2026-06-05 12:48:19,695 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:48:19,695 [INFO]        Match ended — will not re-scrape
+2026-06-05 12:48:19,696 [INFO] 
+  Live: 41 | Ended: 13 | Next update in 0s...
+
+2026-06-05 12:48:23,834 [INFO]   [1] LIVE: Eagle Thane Strikers  vs Arcs Andheri  | 05 Jun|13:30
+2026-06-05 12:48:26,311 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:48:26,330 [INFO]   [1] LIVE: Aakash Tigers Mws  vs North Mumbai Panthers  | 05 Jun|18:30
+2026-06-05 12:48:28,759 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:48:28,773 [INFO]   [1] SKIP (ended): Gujarat Titans SRL vs Mumbai Indians SRL
+2026-06-05 12:48:28,791 [INFO]   [1] LIVE: Lucknow Super Giants SRL  vs Royal Challengers Bangalore SRL  | 05 Jun|19:00
+2026-06-05 12:48:31,211 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:48:31,229 [INFO]   [1] LIVE: Kolkata Knight Riders SRL  vs Sunrisers Hyderabad SRL  | 05 Jun|14:00
+2026-06-05 12:48:33,653 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:48:33,668 [INFO]   [1] LIVE: Kent  vs Worcestershire Rapids  | 05 Jun|18:30
+2026-06-05 12:48:36,067 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:48:36,083 [INFO]   [1] LIVE: Gloucestershire  vs Middlesex  | 05 Jun|19:00
+2026-06-05 12:48:38,511 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:48:38,530 [INFO]   [1] LIVE: Yorkshire  vs Durham  | 05 Jun|19:00
+2026-06-05 12:48:40,945 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:48:40,961 [INFO]   [1] LIVE: The Blaze  vs Warwickshire  | 05 Jun|18:30
+2026-06-05 12:48:43,352 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:48:43,368 [INFO]   [1] LIVE: Northamptonshire Steelbacks  vs Glamorgan  | 05 Jun|18:30
+2026-06-05 12:48:45,852 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:48:45,868 [INFO]   [1] LIVE: Sussex Sharks  vs Leicestershire Foxes  | 05 Jun|19:00
+2026-06-05 12:48:48,286 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:48:48,302 [INFO]   [1] LIVE: Surrey  vs Essex  | 05 Jun|18:00
+2026-06-05 12:48:50,702 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:48:50,718 [INFO]   [1] SKIP (ended): Bahrain vs Singapore
+2026-06-05 12:48:50,739 [INFO]   [1] LIVE: Oman Yet to bat vs Hong Kong, China 200/1 | INN 1 | 15.4/20 OV
+2026-06-05 12:48:53,166 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:48:53,181 [INFO]   [1] LIVE: A4 Power Strikers  vs Diamond Dazzlers  | 05 Jun|19:00
+2026-06-05 12:48:55,588 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:48:55,602 [INFO]   [1] LIVE: Ami Super Avengers  vs Pruthvi Panthers  | 05 Jun|14:00
+2026-06-05 12:48:58,002 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:48:58,027 [INFO]   [1] LIVE: Nottinghamshire  vs Warwickshire  | 05 Jun|22:30
+2026-06-05 12:49:00,447 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:49:00,463 [INFO]   [1] LIVE: Sussex  vs Leicestershire  | 05 Jun|23:00
+2026-06-05 12:49:02,868 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:49:02,888 [INFO]   [1] LIVE: Surrey  vs Hampshire  | 05 Jun|22:30
+2026-06-05 12:49:05,336 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:49:05,353 [INFO]   [1] LIVE: Worcestershire  vs Glamorgan  | 05 Jun|21:30
+2026-06-05 12:49:07,744 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:49:07,759 [INFO]   [1] LIVE: Yorkshire  vs Lancashire  | 05 Jun|23:00
+2026-06-05 12:49:10,159 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:49:10,180 [INFO]   [1] LIVE: Gloucestershire  vs Somerset  | 05 Jun|23:00
+2026-06-05 12:49:12,618 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:49:12,636 [INFO]   [1] LIVE: Wellington SRL 29/1 vs Canterbury SRL 189/4 | INN 2 | 3.2/20 OV
+2026-06-05 12:49:15,048 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:49:15,071 [INFO]   [1] SKIP (ended): Northern Districts SRL vs Otago SRL
+2026-06-05 12:49:15,093 [INFO]   [1] LIVE: Malta  vs Norway  | 05 Jun|15:00
+2026-06-05 12:49:17,517 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:49:17,530 [INFO]   [1] LIVE: Austria  vs Sweden  | 05 Jun|18:30
+2026-06-05 12:49:19,959 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:49:19,978 [INFO]   [1] LIVE: Austria  vs Norway  | 05 Jun|11:00
+2026-06-05 12:49:22,400 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:49:22,416 [INFO]   [1] LIVE: Nuwakot  vs Kathmandu  | 05 Jun|12:15
+2026-06-05 12:49:24,836 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:49:24,852 [INFO]   [1] SKIP (ended): Chitwan vs Bhaktapur
+2026-06-05 12:49:24,870 [INFO]   [1] LIVE: Multan Sultans SRL  vs Karachi Kings SRL  | 05 Jun|15:00
+2026-06-05 12:49:27,283 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:49:27,297 [INFO]   [1] LIVE: Peshawar Zalmi SRL  vs Lahore Qalandars SRL  | 05 Jun|23:00
+2026-06-05 12:49:29,709 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:49:29,728 [INFO]   [1] SKIP (ended): Rawalpindiz Srl vs Islamabad United SRL
+2026-06-05 12:49:29,747 [INFO]   [1] LIVE: Warsaw Cc  vs Warsaw Kings Xi  | 05 Jun|16:30
+2026-06-05 12:49:32,164 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:49:32,178 [INFO]   [1] LIVE: Warsaw Sultans  vs Warsaw Hussars  | 05 Jun|18:30
+2026-06-05 12:49:34,604 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:49:34,626 [INFO]   [1] LIVE: Warsaw Scout  vs Warsaw Thunder  | 05 Jun|14:30
+2026-06-05 12:49:37,057 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:49:37,075 [INFO]   [1] LIVE: Warsaw Elite 45/1 vs Warsaw Zalmi Yet to bat | INN 1 | 2.4/10 OV
+2026-06-05 12:49:39,523 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:49:39,538 [INFO]   [1] LIVE: Vikings Xi  vs Ramana Xi Cricket Club  | 05 Jun|18:30
+2026-06-05 12:49:41,982 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:49:41,996 [INFO]   [1] SKIP (ended): Lexus vs Super Strikers
+2026-06-05 12:49:42,015 [INFO]   [1] LIVE: Challenging Stars  vs Royal Lions Cc (Kuw)  | 05 Jun|22:00
+2026-06-05 12:49:44,421 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:49:44,438 [INFO]   [1] SKIP (ended): Mec Study Group vs Reddy Riders
+2026-06-05 12:49:44,460 [INFO]   [1] NEW: Durban Super Giants SRL 226/1 vs Pretoria Capitals SRL 185/9 | Ended
+2026-06-05 12:49:46,943 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:49:46,943 [INFO]        Match ended — will not re-scrape
+2026-06-05 12:49:46,972 [INFO]   [1] LIVE: Joburg Super Kings SRL  vs Mi Cape Town SRL  | 05 Jun|18:00
+2026-06-05 12:49:49,412 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:49:49,432 [INFO]   [1] SKIP (ended): Sunrisers Eastern Cape SRL vs Joburg Super Kings SRL
+2026-06-05 12:49:49,464 [INFO]   [1] LIVE: Adamas Howrah Warriors  vs Novus Royals Purulia  | 05 Jun|18:30
+2026-06-05 12:49:51,879 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:49:51,908 [INFO]   [1] SKIP (ended): Trinbago Knight Riders SRL vs Guyana Amazon Warriors SRL
+2026-06-05 12:49:51,945 [INFO]   [1] SKIP (ended): Barbados Royals SRL vs St Lucia Kings SRL
+2026-06-05 12:49:51,975 [INFO]   [1] LIVE: Guyana Amazon Warriors SRL  vs Antigua And Barbuda Falcons SRL  | 05 Jun|16:00
+2026-06-05 12:49:54,396 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:49:54,422 [INFO]   [1] SKIP (ended): West Indies SRL vs Pakistan SRL
+2026-06-05 12:49:54,452 [INFO]   [1] LIVE: Afghanistan SRL  vs Sri Lanka SRL  | 05 Jun|21:00
+2026-06-05 12:49:56,882 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:49:56,902 [INFO]   [1] LIVE: Australia SRL  vs India SRL  | 05 Jun|13:00
+2026-06-05 12:49:59,363 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:49:59,405 [INFO]   [1] LIVE: England Lions  vs South Africa A  | 05 Jun|15:00
+2026-06-05 12:50:01,849 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:50:01,880 [INFO]   [1] SKIP (ended): Sydney Thunder SRL vs Adelaide Strikers SRL
+2026-06-05 12:50:01,917 [INFO]   [1] LIVE: Melbourne Stars SRL  vs Brisbane Heat SRL  | 05 Jun|17:00
+2026-06-05 12:50:04,342 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:50:04,364 [INFO]   [1] SKIP (ended): Melbourne Renegades SRL vs Perth Scorchers SRL
+2026-06-05 12:50:04,365 [INFO] 
+  Live: 40 | Ended: 14 | Next update in 0s...
+
+2026-06-05 12:50:07,906 [INFO]   [1] LIVE: Eagle Thane Strikers  vs Arcs Andheri  | 05 Jun|13:30
+2026-06-05 12:50:10,407 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:50:10,438 [INFO]   [1] LIVE: Aakash Tigers Mws  vs North Mumbai Panthers  | 05 Jun|18:30
+2026-06-05 12:50:12,900 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:50:12,949 [INFO]   [1] SKIP (ended): Gujarat Titans SRL vs Mumbai Indians SRL
+2026-06-05 12:50:12,991 [INFO]   [1] LIVE: Lucknow Super Giants SRL  vs Royal Challengers Bangalore SRL  | 05 Jun|19:00
+2026-06-05 12:50:15,412 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:50:15,436 [INFO]   [1] LIVE: Kolkata Knight Riders SRL  vs Sunrisers Hyderabad SRL  | 05 Jun|14:00
+2026-06-05 12:50:17,921 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:50:17,944 [INFO]   [1] LIVE: Kent  vs Worcestershire Rapids  | 05 Jun|18:30
+2026-06-05 12:50:20,391 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:50:20,447 [INFO]   [1] LIVE: Gloucestershire  vs Middlesex  | 05 Jun|19:00
+2026-06-05 12:50:22,894 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:50:22,915 [INFO]   [1] LIVE: Yorkshire  vs Durham  | 05 Jun|19:00
+2026-06-05 12:50:25,367 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:50:25,388 [INFO]   [1] LIVE: The Blaze  vs Warwickshire  | 05 Jun|18:30
+2026-06-05 12:50:27,853 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:50:27,874 [INFO]   [1] LIVE: Northamptonshire Steelbacks  vs Glamorgan  | 05 Jun|18:30
+2026-06-05 12:50:30,311 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:50:30,323 [INFO]   [1] LIVE: Sussex Sharks  vs Leicestershire Foxes  | 05 Jun|19:00
+2026-06-05 12:50:32,716 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:50:32,732 [INFO]   [1] LIVE: Surrey  vs Essex  | 05 Jun|18:00
+2026-06-05 12:50:35,146 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:50:35,166 [INFO]   [1] SKIP (ended): Bahrain vs Singapore
+2026-06-05 12:50:35,188 [INFO]   [1] LIVE: Oman Yet to bat vs Hong Kong, China 202/1 | INN 1 | 16.0/20 OV
+2026-06-05 12:50:37,620 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:50:37,640 [INFO]   [1] LIVE: A4 Power Strikers  vs Diamond Dazzlers  | 05 Jun|19:00
+2026-06-05 12:50:40,070 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:50:40,092 [INFO]   [1] LIVE: Ami Super Avengers  vs Pruthvi Panthers  | 05 Jun|14:00
+2026-06-05 12:50:42,537 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:50:42,609 [INFO]   [1] LIVE: Nottinghamshire  vs Warwickshire  | 05 Jun|22:30
+2026-06-05 12:50:45,053 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:50:45,074 [INFO]   [1] LIVE: Sussex  vs Leicestershire  | 05 Jun|23:00
+2026-06-05 12:50:47,506 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:50:47,527 [INFO]   [1] LIVE: Surrey  vs Hampshire  | 05 Jun|22:30
+2026-06-05 12:50:50,004 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:50:50,057 [INFO]   [1] LIVE: Worcestershire  vs Glamorgan  | 05 Jun|21:30
+2026-06-05 12:50:52,556 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:50:52,598 [INFO]   [1] LIVE: Yorkshire  vs Lancashire  | 05 Jun|23:00
+2026-06-05 12:50:55,071 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:50:55,088 [INFO]   [1] LIVE: Gloucestershire  vs Somerset  | 05 Jun|23:00
+2026-06-05 12:50:57,504 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:50:57,539 [INFO]   [1] LIVE: Wellington SRL 43/1 vs Canterbury SRL 189/4 | INN 2 | 4.1/20 OV
+2026-06-05 12:51:00,005 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:51:00,044 [INFO]   [1] SKIP (ended): Northern Districts SRL vs Otago SRL
+2026-06-05 12:51:00,095 [INFO]   [1] LIVE: Malta  vs Norway  | 05 Jun|15:00
+2026-06-05 12:51:02,540 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:51:02,564 [INFO]   [1] LIVE: Austria  vs Sweden  | 05 Jun|18:30
+2026-06-05 12:51:05,009 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:51:05,029 [INFO]   [1] LIVE: Austria  vs Norway  | 05 Jun|11:00
+2026-06-05 12:51:07,487 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:51:07,510 [INFO]   [1] LIVE: Nuwakot  vs Kathmandu  | 05 Jun|12:15
+2026-06-05 12:51:09,960 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:51:09,979 [INFO]   [1] SKIP (ended): Chitwan vs Bhaktapur
+2026-06-05 12:51:10,003 [INFO]   [1] LIVE: Multan Sultans SRL  vs Karachi Kings SRL  | 05 Jun|15:00
+2026-06-05 12:51:12,451 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:51:12,473 [INFO]   [1] LIVE: Peshawar Zalmi SRL  vs Lahore Qalandars SRL  | 05 Jun|23:00
+2026-06-05 12:51:14,913 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:51:14,937 [INFO]   [1] SKIP (ended): Rawalpindiz Srl vs Islamabad United SRL
+2026-06-05 12:51:14,966 [INFO]   [1] LIVE: Warsaw Cc  vs Warsaw Kings Xi  | 05 Jun|16:30
+2026-06-05 12:51:17,393 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:51:17,430 [INFO]   [1] LIVE: Warsaw Sultans  vs Warsaw Hussars  | 05 Jun|18:30
+2026-06-05 12:51:19,868 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:51:19,907 [INFO]   [1] LIVE: Warsaw Scout  vs Warsaw Thunder  | 05 Jun|14:30
+2026-06-05 12:51:22,449 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:51:22,479 [INFO]   [1] LIVE: Warsaw Elite 50/1 vs Warsaw Zalmi Yet to bat | INN 1 | 3.0/10 OV
+2026-06-05 12:51:24,903 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:51:24,942 [INFO]   [1] LIVE: Vikings Xi  vs Ramana Xi Cricket Club  | 05 Jun|18:30
+2026-06-05 12:51:27,434 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:51:27,472 [INFO]   [1] SKIP (ended): Lexus vs Super Strikers
+2026-06-05 12:51:27,509 [INFO]   [1] LIVE: Challenging Stars  vs Royal Lions Cc (Kuw)  | 05 Jun|22:00
+2026-06-05 12:51:30,004 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:51:30,059 [INFO]   [1] SKIP (ended): Mec Study Group vs Reddy Riders
+2026-06-05 12:51:30,126 [INFO]   [1] SKIP (ended): Durban Super Giants SRL vs Pretoria Capitals SRL
+2026-06-05 12:51:30,174 [INFO]   [1] LIVE: Joburg Super Kings SRL  vs Mi Cape Town SRL  | 05 Jun|18:00
+2026-06-05 12:51:32,668 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:51:32,698 [INFO]   [1] SKIP (ended): Sunrisers Eastern Cape SRL vs Joburg Super Kings SRL
+2026-06-05 12:51:32,752 [INFO]   [1] LIVE: Adamas Howrah Warriors  vs Novus Royals Purulia  | 05 Jun|18:30
+2026-06-05 12:51:35,258 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:51:35,286 [INFO]   [1] SKIP (ended): Trinbago Knight Riders SRL vs Guyana Amazon Warriors SRL
+2026-06-05 12:51:35,323 [INFO]   [1] SKIP (ended): Barbados Royals SRL vs St Lucia Kings SRL
+2026-06-05 12:51:35,356 [INFO]   [1] LIVE: Guyana Amazon Warriors SRL  vs Antigua And Barbuda Falcons SRL  | 05 Jun|16:00
+2026-06-05 12:51:37,801 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:51:37,824 [INFO]   [1] SKIP (ended): West Indies SRL vs Pakistan SRL
+2026-06-05 12:51:37,850 [INFO]   [1] LIVE: Afghanistan SRL  vs Sri Lanka SRL  | 05 Jun|21:00
+2026-06-05 12:51:40,310 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:51:40,339 [INFO]   [1] LIVE: Australia SRL 0/0 vs India SRL Yet to bat | INN 1 | 0OV
+2026-06-05 12:51:42,863 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:51:42,912 [INFO]   [1] LIVE: England Lions  vs South Africa A  | 05 Jun|15:00
+2026-06-05 12:51:45,406 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:51:45,436 [INFO]   [1] SKIP (ended): Sydney Thunder SRL vs Adelaide Strikers SRL
+2026-06-05 12:51:45,537 [INFO]   [1] LIVE: Melbourne Stars SRL  vs Brisbane Heat SRL  | 05 Jun|17:00
+2026-06-05 12:51:48,075 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:51:48,122 [INFO]   [1] SKIP (ended): Melbourne Renegades SRL vs Perth Scorchers SRL
+2026-06-05 12:51:48,124 [INFO] 
+  Live: 40 | Ended: 14 | Next update in 0s...
+
+2026-06-05 12:51:52,249 [INFO]   [1] LIVE: Eagle Thane Strikers  vs Arcs Andheri  | 05 Jun|13:30
+2026-06-05 12:51:54,779 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:51:54,807 [INFO]   [1] LIVE: Aakash Tigers Mws  vs North Mumbai Panthers  | 05 Jun|18:30
+2026-06-05 12:51:57,245 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:51:57,265 [INFO]   [1] SKIP (ended): Gujarat Titans SRL vs Mumbai Indians SRL
+2026-06-05 12:51:57,297 [INFO]   [1] LIVE: Lucknow Super Giants SRL  vs Royal Challengers Bangalore SRL  | 05 Jun|19:00
+2026-06-05 12:51:59,741 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:51:59,757 [INFO]   [1] LIVE: Kolkata Knight Riders SRL  vs Sunrisers Hyderabad SRL  | 05 Jun|14:00
+2026-06-05 12:52:02,166 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:52:02,183 [INFO]   [1] LIVE: Kent  vs Worcestershire Rapids  | 05 Jun|18:30
+2026-06-05 12:52:04,620 [INFO]        SAVED → data\cricket_2026-06-05.json
+2026-06-05 12:52:04,641 [INFO]   [1] LIVE: Gloucestershire  vs Middlesex  | 05 Jun|19:00
