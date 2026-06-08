@@ -1,0 +1,12 @@
+# add file which is ignoring
+# for example:
+# *.log
+# node_modules/
+# .env
+# Ignore all .log files
+*.log
+# Ignore the node_modules directory
+node_modules/
+# Ignore environment variable files
+.env
+# Ignore build output directories
