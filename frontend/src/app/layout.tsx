@@ -1,19 +1,18 @@
-// @ts-ignore: Allow importing global css in this environment
 import "./globals.css";
 import Navbar from "../components/Navbar";
 
 export const metadata = {
-  title: "Cricket Live Tracker",
-  description: "Live cricket scores and match insights",
+  title: "Cricket Live Scores",
+  description: "Live cricket scores and match updates",
 };
 
-export default function RootLayout({ children }: { children: any }) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className="animated-bg min-h-screen">
-        <div className="max-w-6xl mx-auto px-4 py-6">
-          <Navbar />
-          <main className="mt-6">{children}</main>
+      <body>
+        <Navbar />
+        <div className="pt-14 pb-4 px-3 min-h-screen bg-slate-900">
+          <div className="cricbuzz-container">{children}</div>
         </div>
       </body>
     </html>

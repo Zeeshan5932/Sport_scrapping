@@ -2,33 +2,119 @@
 @tailwind components;
 @tailwind utilities;
 
-:root{
-  --bg-1: #071026;
-  --bg-2: #0b2340;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html,body,#root{
-  height:100%;
+html,
+body {
+  height: 100%;
 }
 
-body{
-  @apply bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white antialiased;
-  background-color: var(--bg-1);
+body {
+  @apply bg-slate-900 text-gray-800 antialiased;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
-.animated-bg{
-  background: radial-gradient(circle at 10% 10%, rgba(59,130,246,0.08), transparent 10%),
-              radial-gradient(circle at 90% 90%, rgba(239,68,68,0.03), transparent 10%);
-  animation: float 8s linear infinite;
+/* Cricbuzz Compact Styles */
+.cricbuzz-container {
+  @apply max-w-2xl mx-auto;
 }
 
-@keyframes float{
-  0%{background-position:0% 0%}
-  50%{background-position:100% 100%}
-  100%{background-position:0% 0%}
+.match-card {
+  @apply bg-white border border-gray-200 rounded-sm cursor-pointer hover:bg-gray-50 transition-colors;
 }
 
-.glass-card{
-  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
-  border: 1px solid rgba(255,255,255,0.04);
+.match-header {
+  @apply bg-red-600 text-white px-3 py-2;
+}
+
+.match-header-text {
+  @apply text-xs font-medium;
+}
+
+.match-body {
+  @apply px-3 py-2;
+}
+
+.match-team-row {
+  @apply flex justify-between items-center py-1.5 border-b border-gray-200 last:border-b-0;
+}
+
+.match-team-name {
+  @apply text-sm font-medium text-gray-900;
+}
+
+.match-score {
+  @apply text-sm font-semibold text-gray-900;
+}
+
+.match-status {
+  @apply text-xs text-gray-600 py-1;
+}
+
+.scorecard-table {
+  @apply w-full text-xs border-collapse;
+}
+
+.scorecard-table th {
+  @apply bg-red-600 text-white font-semibold text-center py-1.5 px-1;
+  border: 1px solid #fee2e2;
+}
+
+.scorecard-table td {
+  @apply text-center py-1 px-1 border border-gray-200;
+}
+
+.scorecard-table tr:nth-child(even) {
+  @apply bg-gray-50;
+}
+
+.tab-button {
+  @apply px-3 py-2 text-xs font-medium border-b-2 cursor-pointer transition-colors;
+  border-color: transparent;
+}
+
+.tab-button.active {
+  @apply text-red-600 border-red-600;
+}
+
+.tab-button:not(.active) {
+  @apply text-gray-600 hover:text-gray-900;
+}
+
+.stat-item {
+  @apply flex justify-between py-1 text-xs border-b border-gray-200 last:border-b-0;
+}
+
+.stat-label {
+  @apply text-gray-600;
+}
+
+.stat-value {
+  @apply font-semibold text-gray-900;
+}
+
+.red-badge {
+  @apply bg-red-600 text-white text-xs font-bold px-1.5 py-0.5 rounded-sm;
+}
+
+/* Utility Classes */
+.compact-section {
+  @apply bg-white border border-gray-200 rounded-sm p-3 mb-2;
+}
+
+.compact-title {
+  @apply text-xs font-bold text-gray-900 mb-2 uppercase tracking-wide;
+}
+
+/* Navbar Styles */
+.navbar-red {
+  @apply bg-red-600 text-white px-3 py-2;
+}
+
+.navbar-logo {
+  @apply text-lg font-bold;
 }

@@ -1,20 +1,24 @@
-import type { Statistics as StatsType } from "../types/match";
+"use client";
 
-export default function Statistics({ stats }: { stats?: StatsType }) {
-  if (!stats) return <div className="p-6 text-slate-300">Statistics unavailable</div>;
+import type { MatchStats } from "../types/match";
+
+export default function Statistics({ stats }: { stats?: MatchStats[] }) {
+  if (!stats || stats.length === 0) {
+    return (
+      <div className="compact-section">
+        <p className="text-xs text-gray-600 text-center">No statistics available</p>
+      </div>
+    );
+  }
 
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-      <div className="p-4 bg-white/5 rounded-lg">
-        <div className="text-slate-300 text-sm">{stats.teamA && "Team A"}</div>
-        <div className="text-white font-bold text-xl">{stats.teamA.runs}/{stats.teamA.wickets}</div>
-        <div className="text-slate-300">Overs: {stats.teamA.overs}</div>
-      </div>
-      <div className="p-4 bg-white/5 rounded-lg">
-        <div className="text-slate-300 text-sm">{stats.teamB && "Team B"}</div>
-        <div className="text-white font-bold text-xl">{stats.teamB.runs}/{stats.teamB.wickets}</div>
-        <div className="text-slate-300">Overs: {stats.teamB.overs}</div>
-      </div>
+    <div className="compact-section p-2">
+      {stats.map((stat, index) => (
+        <div key={index} className="stat-item">
+          <span className="stat-label">{stat.label}</span>
+          <span className="stat-value">{stat.value}</span>
+        </div>
+      ))}
     </div>
   );
 }

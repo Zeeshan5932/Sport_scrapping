@@ -1,29 +1,26 @@
 import { getMatches } from "../services/api";
 import MatchCard from "../components/MatchCard";
 
-export default async function Page() {
+export const revalidate = 60;
+
+export default async function HomePage() {
   const matches = await getMatches();
 
   return (
     <div>
-      <section className="mb-6">
-        <h1 className="text-3xl font-extrabold text-white">Cricket Live Tracker</h1>
-        <p className="text-slate-300 mt-2">Live scores, stats and match insights</p>
-      </section>
+      <div className="mb-3">
+        <h1 className="text-lg font-bold text-white">Cricket Matches</h1>
+      </div>
 
-      <section>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {matches && matches.length ? (
-            matches.map((m) => (
-              <div key={m.id}>
-                <MatchCard match={m} />
-              </div>
-            ))
-          ) : (
-            <div className="p-6 text-slate-300">No matches available</div>
-          )}
-        </div>
-      </section>
+      <div>
+        {matches && matches.length > 0 ? (
+          matches.map((match) => <MatchCard key={match.id} match={match} />)
+        ) : (
+          <div className="compact-section text-center">
+            <p className="text-gray-600 text-sm">No matches available</p>
+          </div>
+        )}
+      </div>
     </div>
   );
 }

@@ -1,40 +1,41 @@
 "use client";
+
 import { useState } from "react";
 import Scorecard from "./Scorecard";
 import Statistics from "./Statistics";
-import HeadToHead from "./HeadToHead";
-import type { Match } from "../types/match";
+import HeadToHeadComponent from "./HeadToHead";
+import type { MatchDetailResponse } from "../types/match";
 
-export default function MatchTabs({ match }: { match: Match }) {
-  const [tab, setTab] = useState<string>("scorecard");
+export default function MatchTabs({ match }: { match: MatchDetailResponse }) {
+  const [activeTab, setActiveTab] = useState<"scorecard" | "statistics" | "h2h">("scorecard");
 
   return (
-    <div>
-      <div className="flex gap-2 bg-white/3 rounded-md p-1 mb-4">
+    <div className="compact-section p-0 overflow-hidden">
+      <div className="flex border-b border-gray-200">
         <button
-          onClick={() => setTab("scorecard")}
-          className={`px-4 py-2 rounded-md text-sm ${tab === "scorecard" ? "bg-white/10 text-white" : "text-slate-300"}`}
+          onClick={() => setActiveTab("scorecard")}
+          className={`tab-button flex-1 ${activeTab === "scorecard" ? "active" : ""}`}
         >
           Scorecard
         </button>
         <button
-          onClick={() => setTab("statistics")}
-          className={`px-4 py-2 rounded-md text-sm ${tab === "statistics" ? "bg-white/10 text-white" : "text-slate-300"}`}
+          onClick={() => setActiveTab("statistics")}
+          className={`tab-button flex-1 ${activeTab === "statistics" ? "active" : ""}`}
         >
-          Statistics
+          Stats
         </button>
         <button
-          onClick={() => setTab("h2h")}
-          className={`px-4 py-2 rounded-md text-sm ${tab === "h2h" ? "bg-white/10 text-white" : "text-slate-300"}`}
+          onClick={() => setActiveTab("h2h")}
+          className={`tab-button flex-1 ${activeTab === "h2h" ? "active" : ""}`}
         >
-          Head To Head
+          H2H
         </button>
       </div>
 
-      <div>
-        {tab === "scorecard" && <Scorecard rows={match.scorecard} />}
-        {tab === "statistics" && <Statistics stats={match.statistics} />}
-        {tab === "h2h" && <HeadToHead items={match.headToHead} />}
+      <div className="p-2">
+        {activeTab === "scorecard" && <Scorecard rows={match.scorecard} />}
+        {activeTab === "statistics" && <Statistics stats={match.stats} />}
+        {activeTab === "h2h" && <HeadToHeadComponent data={match.head_to_head} />}
       </div>
     </div>
   );

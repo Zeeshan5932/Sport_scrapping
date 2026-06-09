@@ -1,59 +1,47 @@
 export interface ScorecardEntry {
-  id: string;
+  id?: string;
   name: string;
   runs: number;
   balls: number;
   fours: number;
   sixes: number;
-  strikeRate: number;
+  strike_rate?: number;
+  strikeRate?: number;
 }
 
-export interface Statistics {
-  teamA: {
-    runs: number;
-    wickets: number;
-    overs: string;
-  };
-  teamB: {
-    runs: number;
-    wickets: number;
-    overs: string;
-  };
-  partnerships?: Array<{ players: string; runs: number }>;
+export interface MatchStats {
+  label: string;
+  value: string;
 }
 
-export interface HeadToHeadItem {
-  date: string;
-  tournament: string;
-  winner: string;
-  margin: string;
-}
-
-export interface BallEvent {
-  over: number;
-  ball: number;
-  run: number;
-  summary: string;
-}
-
-export interface RunRatePoint {
-  over: number;
-  runRate: number;
+export interface HeadToHead {
+  team1_wins: number;
+  team2_wins: number;
 }
 
 export interface Match {
   id: string;
-  tournament: string;
-  teamA: string;
-  teamB: string;
-  scoreA?: string;
-  scoreB?: string;
-  overs?: string;
+  team1: string;
+  team2: string;
+  score1: string;
+  score2: string;
   status: string;
-  live: boolean;
+  tournament?: string;
+  live?: boolean;
   scorecard?: ScorecardEntry[];
-  statistics?: Statistics;
-  headToHead?: HeadToHeadItem[];
-  balls?: BallEvent[];
-  runRate?: RunRatePoint[];
+  stats?: MatchStats[];
+  head_to_head?: HeadToHead;
+}
+
+export interface MatchDetailResponse {
+  id: string;
+  team1: string;
+  team2: string;
+  score1: string;
+  score2: string;
+  status: string;
+  tournament?: string;
+  scorecard?: ScorecardEntry[];
+  stats?: MatchStats[];
+  head_to_head?: HeadToHead;
 }

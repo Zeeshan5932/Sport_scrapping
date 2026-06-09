@@ -1,15 +1,12 @@
-import Link from "next/link";
+"use client";
 
 export default function Navbar() {
   return (
-    <nav className="w-full bg-transparent px-4 py-3 flex items-center justify-between">
-      <Link href="/" className="flex items-center gap-3">
-        <div className="w-10 h-10 bg-gradient-to-br from-red-500 to-yellow-400 rounded-full flex items-center justify-center text-white font-bold shadow-lg">
-          CB
-        </div>
-        <div className="text-white font-semibold text-lg">Cricket Live Tracker</div>
-      </Link>
-      <div className="text-sm text-slate-200 hidden sm:block">Live scores • Insights • Stats</div>
+    <nav className="navbar-red fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-4 py-2 shadow-md">
+      <div className="flex items-center gap-2">
+        <div className="navbar-logo">CRICKET</div>
+      </div>
+      <div className="text-xs font-semibold">Live Scores</div>
     </nav>
   );
 }

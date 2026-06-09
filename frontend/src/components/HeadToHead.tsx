@@ -1,24 +1,26 @@
-import type { HeadToHeadItem } from "../types/match";
+"use client";
 
-export default function HeadToHead({ items }: { items?: HeadToHeadItem[] }) {
-  if (!items || items.length === 0) {
-    return <div className="p-6 text-slate-300">No head-to-head data</div>;
+import type { HeadToHead } from "../types/match";
+
+export default function HeadToHeadComponent({ data }: { data?: HeadToHead }) {
+  if (!data) {
+    return (
+      <div className="compact-section">
+        <p className="text-xs text-gray-600 text-center">No head-to-head data available</p>
+      </div>
+    );
   }
 
   return (
-    <div className="space-y-3">
-      {items.map((h, idx) => (
-        <div key={idx} className="p-3 bg-white/5 rounded-lg flex items-center justify-between">
-          <div>
-            <div className="text-white font-medium">{h.tournament}</div>
-            <div className="text-slate-300 text-sm">{h.date}</div>
-          </div>
-          <div className="text-right text-slate-200">
-            <div className="font-semibold">{h.winner}</div>
-            <div className="text-sm">{h.margin}</div>
-          </div>
-        </div>
-      ))}
+    <div className="compact-section p-2">
+      <div className="stat-item">
+        <span className="stat-label">Team 1 Wins</span>
+        <span className="stat-value">{data.team1_wins}</span>
+      </div>
+      <div className="stat-item">
+        <span className="stat-label">Team 2 Wins</span>
+        <span className="stat-value">{data.team2_wins}</span>
+      </div>
     </div>
   );
 }

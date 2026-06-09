@@ -1,28 +1,29 @@
 "use client";
-import { motion } from "framer-motion";
-import type { Match } from "../types/match";
 
-export default function MatchHeader({ match }: { match: Match }) {
+import type { MatchDetailResponse } from "../types/match";
+
+export default function MatchHeader({ match }: { match: MatchDetailResponse }) {
   return (
-    <motion.header
-      initial={{ y: -20, opacity: 0 }}
-      animate={{ y: 0, opacity: 1 }}
-      className="w-full rounded-b-md overflow-hidden shadow-md"
-    >
-      <div className="bg-red-600 text-white px-4 py-3 flex items-center justify-between">
-        <div>
-          <div className="text-sm opacity-90">{match.tournament}</div>
-          <div className="flex items-center gap-6 mt-1">
-            <div className="text-lg font-bold">{match.teamA}</div>
-            <div className="text-lg font-bold">vs</div>
-            <div className="text-lg font-bold">{match.teamB}</div>
+    <div className="compact-section p-0 overflow-hidden">
+      <div className="match-header">
+        <div className="match-header-text">{match.tournament || "Match"}</div>
+      </div>
+      <div className="match-body">
+        <div className="flex justify-between items-center mb-2">
+          <div>
+            <div className="match-team-name">{match.team1}</div>
+            <div className="match-score">{match.score1}</div>
+          </div>
+          <div className="text-center">
+            <div className="text-xs text-gray-600">vs</div>
+          </div>
+          <div className="text-right">
+            <div className="match-team-name">{match.team2}</div>
+            <div className="match-score">{match.score2}</div>
           </div>
         </div>
-        <div className="text-right">
-          <div className="text-2xl font-extrabold">{match.scoreA ?? "-"}</div>
-          <div className="text-sm opacity-90">{match.status}</div>
-        </div>
+        <div className="match-status text-center">{match.status}</div>
       </div>
-    </motion.header>
+    </div>
   );
 }
