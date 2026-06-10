@@ -4,15 +4,11 @@ import type { ScorecardEntry } from "../types/match";
 
 export default function Scorecard({ rows }: { rows?: ScorecardEntry[] }) {
   if (!rows || rows.length === 0) {
-    return (
-      <div className="compact-section">
-        <p className="text-xs text-gray-600 text-center">No batting data available</p>
-      </div>
-    );
+    return <div className="empty-state">No batting data available</div>;
   }
 
   return (
-    <div className="compact-section p-2 overflow-x-auto">
+    <div className="overflow-x-auto">
       <table className="scorecard-table">
         <thead>
           <tr>
@@ -29,7 +25,7 @@ export default function Scorecard({ rows }: { rows?: ScorecardEntry[] }) {
             const sr = row.strike_rate ?? row.strikeRate ?? 0;
             return (
               <tr key={index}>
-                <td className="text-left font-medium text-gray-900">{row.name}</td>
+                <td>{row.name}</td>
                 <td>{row.runs}</td>
                 <td>{row.balls}</td>
                 <td>{row.fours}</td>

@@ -1,42 +1,79 @@
-import MatchHeader from "../../../components/MatchHeader";
+"use client";
+
+import { useEffect, useState } from "react";
+import { useParams, useRouter } from "next/navigation";
 import MatchTabs from "../../../components/MatchTabs";
-import Link from "next/link";
 import { getMatchById } from "../../../services/api";
+import type { MatchDetailResponse } from "../../../types/match";
 
-export const revalidate = 60;
+export default function MatchPage() {
+  const params = useParams();
+  const router = useRouter();
+  const [match, setMatch] = useState<MatchDetailResponse | null>(null);
+  const [loading, setLoading] = useState(true);
 
-interface Props {
-  params: { id: string };
-}
+  useEffect(() => {
+    const fetchMatch = async () => {
+      setLoading(true);
+      try {
+        const data = await getMatchById(params.id as string);
+        setMatch(data);
+      } catch (error) {
+        console.error("Error fetching match:", error);
+        setMatch(null);
+      } finally {
+        setLoading(false);
+      }
+    };
 
-export default async function MatchPage({ params }: Props) {
-  const match = await getMatchById(params.id);
+    fetchMatch();
+  }, [params.id]);
+
+  if (loading) {
+    return (
+      <div className="match-detail-container">
+        <div className="loading-message">Loading...</div>
+      </div>
+    );
+  }
 
   if (!match) {
     return (
-      <div className="compact-section text-center">
-        <p className="text-gray-600 text-sm mb-2">Match not found</p>
-        <Link href="/" className="text-red-600 text-xs font-semibold hover:underline">
-          Back to Matches
-        </Link>
+      <div className="match-detail-container">
+        <div className="match-detail-box">
+          <div className="empty-state">Match not found</div>
+          <button className="back-link" onClick={() => router.back()}>
+            ← Back
+          </button>
+        </div>
       </div>
     );
   }
 
   return (
-    <div>
-      <Link
-        href="/"
-        className="inline-block text-red-600 text-xs font-semibold mb-3 hover:underline"
-      >
-        ← Back
-      </Link>
+    <div className="match-detail-container">
+      <div className="match-detail-box">
+        <div className="match-header">
+          <div className="match-header-title">{match.tournament || "Match"}</div>
+          <div className="match-header-teams">
+            <span>{match.team1}</span>
+            <span>{match.score1}</span>
+          </div>
+          <div className="match-header-teams" style={{ marginTop: "4px" }}>
+            <span>{match.team2}</span>
+            <span>{match.score2}</span>
+          </div>
+          <div className="match-header-status">{match.status}</div>
+        </div>
 
-      <MatchHeader match={match} />
-
-      <div className="mt-3">
-        <MatchTabs match={match} />
+        <div className="match-detail-body">
+          <MatchTabs match={match} />
+          <button className="back-link mt-3" onClick={() => router.back()}>
+            ← Back
+          </button>
+        </div>
       </div>
     </div>
   );
 }
+

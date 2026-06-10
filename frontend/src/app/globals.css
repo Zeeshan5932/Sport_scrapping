@@ -14,79 +14,253 @@ body {
 }
 
 body {
-  @apply bg-slate-900 text-gray-800 antialiased;
+  @apply antialiased;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  background-color: #02033b;
+  color: #1f2937;
+  overflow-x: hidden;
 }
 
-/* Cricbuzz Compact Styles */
-.cricbuzz-container {
-  @apply max-w-2xl mx-auto;
+/* Network Background Effect */
+.network-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #02033b;
+  z-index: 0;
 }
 
-.match-card {
-  @apply bg-white border border-gray-200 rounded-sm cursor-pointer hover:bg-gray-50 transition-colors;
+.network-svg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  opacity: 0.15;
 }
 
-.match-header {
-  @apply bg-red-600 text-white px-3 py-2;
+/* Main content container */
+.main-content {
+  position: relative;
+  z-index: 10;
 }
 
-.match-header-text {
-  @apply text-xs font-medium;
+/* Top navbar */
+.navbar {
+  @apply bg-white text-center py-2 fixed top-0 left-0 right-0 z-40;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: #1f2937;
 }
 
-.match-body {
-  @apply px-3 py-2;
+/* Date navigator bar */
+.date-navigator {
+  @apply bg-red-600 text-white fixed z-40 left-0 right-0 flex items-center justify-center gap-3 py-1.5;
+  top: 24px;
+  font-size: 11px;
 }
 
-.match-team-row {
-  @apply flex justify-between items-center py-1.5 border-b border-gray-200 last:border-b-0;
+.date-nav-button {
+  @apply bg-red-700 hover:bg-red-800 text-white rounded px-2 py-1 transition-colors cursor-pointer;
+  font-size: 11px;
+  border: none;
 }
 
-.match-team-name {
-  @apply text-sm font-medium text-gray-900;
+.date-nav-button:active {
+  @apply bg-red-900;
 }
 
-.match-score {
-  @apply text-sm font-semibold text-gray-900;
+/* Match container - narrow, centered */
+.match-container {
+  margin-top: 54px;
+  padding-top: 16px;
+  padding-bottom: 32px;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: transparent;
+}
+
+.match-list {
+  width: 280px;
+  min-width: 280px;
+}
+
+/* Tournament section */
+.tournament-header {
+  @apply bg-red-600 text-white text-xs font-bold px-2 py-1 mt-1 mb-0.5;
+  letter-spacing: 0.02em;
+}
+
+/* Match row */
+.match-row {
+  @apply bg-white border border-gray-200 px-2 py-1.5 mb-0.5 cursor-pointer hover:bg-gray-50 transition-colors;
+  font-size: 11px;
+  line-height: 1.3;
+}
+
+.match-row-teams {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 2px;
+}
+
+.match-team-left {
+  flex: 1;
+  text-align: left;
+  font-weight: 500;
+  color: #1f2937;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 11px;
+}
+
+.match-score-center {
+  flex: 0 0 auto;
+  text-align: center;
+  font-weight: 600;
+  color: #1f2937;
+  padding: 0 3px;
+  font-size: 11px;
+  white-space: nowrap;
+}
+
+.match-team-right {
+  flex: 1;
+  text-align: right;
+  font-weight: 500;
+  color: #1f2937;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 11px;
 }
 
 .match-status {
-  @apply text-xs text-gray-600 py-1;
+  @apply text-gray-600 text-xs;
+  font-size: 10px;
+  line-height: 1.2;
 }
 
+/* Loading state */
+.loading-message {
+  @apply text-center text-white text-sm py-8;
+}
+
+/* Match detail page styles */
+.match-detail-container {
+  margin-top: 54px;
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.match-detail-box {
+  width: 320px;
+  max-width: 100%;
+}
+
+.match-header {
+  @apply bg-red-600 text-white px-2 py-1.5 rounded-t;
+}
+
+.match-header-title {
+  @apply text-xs font-bold mb-1;
+}
+
+.match-header-teams {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 600;
+  gap: 8px;
+}
+
+.match-header-status {
+  @apply text-xs mt-1;
+  opacity: 0.95;
+}
+
+.match-detail-body {
+  @apply bg-white border border-t-0 border-gray-200 px-2 py-1.5;
+}
+
+/* Tabs */
+.tabs-container {
+  display: flex;
+  border-bottom: 1px solid #e5e7eb;
+  margin-bottom: 8px;
+}
+
+.tab-button {
+  flex: 1;
+  text-align: center;
+  padding: 6px 4px;
+  font-size: 11px;
+  font-weight: 600;
+  color: #6b7280;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  transition: color 0.2s;
+}
+
+.tab-button.active {
+  color: #dc2626;
+  border-bottom-color: #dc2626;
+}
+
+.tab-button:hover:not(.active) {
+  color: #1f2937;
+}
+
+/* Scorecard table */
 .scorecard-table {
-  @apply w-full text-xs border-collapse;
+  width: 100%;
+  font-size: 10px;
+  border-collapse: collapse;
 }
 
 .scorecard-table th {
-  @apply bg-red-600 text-white font-semibold text-center py-1.5 px-1;
+  @apply bg-red-600 text-white font-bold text-center py-1;
+  font-size: 10px;
   border: 1px solid #fee2e2;
 }
 
 .scorecard-table td {
-  @apply text-center py-1 px-1 border border-gray-200;
+  @apply text-center py-0.5 border border-gray-200;
+  font-size: 10px;
+}
+
+.scorecard-table td:first-child {
+  @apply text-left pl-1;
+  font-weight: 500;
 }
 
 .scorecard-table tr:nth-child(even) {
   @apply bg-gray-50;
 }
 
-.tab-button {
-  @apply px-3 py-2 text-xs font-medium border-b-2 cursor-pointer transition-colors;
-  border-color: transparent;
+/* Stats display */
+.stats-list {
+  font-size: 10px;
 }
 
-.tab-button.active {
-  @apply text-red-600 border-red-600;
+.stat-row {
+  @apply flex justify-between py-1 border-b border-gray-200;
+  padding: 4px 0;
 }
 
-.tab-button:not(.active) {
-  @apply text-gray-600 hover:text-gray-900;
-}
-
-.stat-item {
-  @apply flex justify-between py-1 text-xs border-b border-gray-200 last:border-b-0;
+.stat-row:last-child {
+  @apply border-b-0;
 }
 
 .stat-label {
@@ -97,24 +271,14 @@ body {
   @apply font-semibold text-gray-900;
 }
 
-.red-badge {
-  @apply bg-red-600 text-white text-xs font-bold px-1.5 py-0.5 rounded-sm;
+/* Back link */
+.back-link {
+  @apply text-red-600 text-xs font-semibold hover:underline mb-2 inline-block;
+  cursor: pointer;
 }
 
-/* Utility Classes */
-.compact-section {
-  @apply bg-white border border-gray-200 rounded-sm p-3 mb-2;
+/* Empty state */
+.empty-state {
+  @apply text-center text-gray-400 text-xs py-8;
 }
 
-.compact-title {
-  @apply text-xs font-bold text-gray-900 mb-2 uppercase tracking-wide;
-}
-
-/* Navbar Styles */
-.navbar-red {
-  @apply bg-red-600 text-white px-3 py-2;
-}
-
-.navbar-logo {
-  @apply text-lg font-bold;
-}

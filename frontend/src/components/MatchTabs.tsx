@@ -10,29 +10,29 @@ export default function MatchTabs({ match }: { match: MatchDetailResponse }) {
   const [activeTab, setActiveTab] = useState<"scorecard" | "statistics" | "h2h">("scorecard");
 
   return (
-    <div className="compact-section p-0 overflow-hidden">
-      <div className="flex border-b border-gray-200">
+    <div>
+      <div className="tabs-container">
         <button
           onClick={() => setActiveTab("scorecard")}
-          className={`tab-button flex-1 ${activeTab === "scorecard" ? "active" : ""}`}
+          className={`tab-button ${activeTab === "scorecard" ? "active" : ""}`}
         >
           Scorecard
         </button>
         <button
           onClick={() => setActiveTab("statistics")}
-          className={`tab-button flex-1 ${activeTab === "statistics" ? "active" : ""}`}
+          className={`tab-button ${activeTab === "statistics" ? "active" : ""}`}
         >
           Stats
         </button>
         <button
           onClick={() => setActiveTab("h2h")}
-          className={`tab-button flex-1 ${activeTab === "h2h" ? "active" : ""}`}
+          className={`tab-button ${activeTab === "h2h" ? "active" : ""}`}
         >
           H2H
         </button>
       </div>
 
-      <div className="p-2">
+      <div className="tab-content">
         {activeTab === "scorecard" && <Scorecard rows={match.scorecard} />}
         {activeTab === "statistics" && <Statistics stats={match.stats} />}
         {activeTab === "h2h" && <HeadToHeadComponent data={match.head_to_head} />}

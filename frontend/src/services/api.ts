@@ -8,15 +8,10 @@ export const API = axios.create({
   timeout: 10000,
 });
 
-const getDateParam = (): string => {
-  const today = new Date();
-  return today.toISOString().split("T")[0];
-};
-
-export async function getMatches(): Promise<Match[]> {
+export async function getMatches(date?: string): Promise<Match[]> {
   try {
-    const date = getDateParam();
-    const response = await API.get<Match[]>(`/matches?date=${date}`);
+    const dateParam = date || new Date().toISOString().split("T")[0];
+    const response = await API.get<Match[]>(`/matches?date=${dateParam}`);
     if (response?.data && Array.isArray(response.data)) {
       return response.data;
     }
@@ -26,10 +21,10 @@ export async function getMatches(): Promise<Match[]> {
   return [];
 }
 
-export async function getMatchById(id: string): Promise<MatchDetailResponse | null> {
+export async function getMatchById(id: string, date?: string): Promise<MatchDetailResponse | null> {
   try {
-    const date = getDateParam();
-    const response = await API.get<MatchDetailResponse>(`/match/${id}?date=${date}`);
+    const dateParam = date || new Date().toISOString().split("T")[0];
+    const response = await API.get<MatchDetailResponse>(`/match/${id}?date=${dateParam}`);
     if (response?.data) {
       return response.data;
     }
