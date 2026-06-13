@@ -1,58 +1,73 @@
-from fastapi import APIRouter
 from pathlib import Path
 import json
 
+from fastapi import APIRouter
+
 router = APIRouter()
 
-DATA_DIR = Path("../data/")
+DATA_DIR = Path("data")
 
 
 @router.get("/matches")
 async def get_matches(date: str):
 
-    """
-    Frontend sends:
-    2026-06-05
+    file_path = (
+        DATA_DIR /
+        f"cricket_{date}.json"
+    )
 
-    File:
-    05-06-2026.json
-    """
-
-    try:
-
-        parts = date.split("-")
-
-        formatted_date = (
-            f"{parts[2]}-"
-            f"{parts[1]}-"
-            f"{parts[0]}"
-        )
-
-        file_path = (
-            DATA_DIR /
-            f"{formatted_date}.json"
-        )
-
-        print("READING:", file_path)
-
-        if not file_path.exists():
-
-            return {
-                "error": "File not found"
-            }
-
-        with open(
-            file_path,
-            "r",
-            encoding="utf-8"
-        ) as f:
-
-            data = json.load(f)
-
-        return data
-
-    except Exception as e:
+    if not file_path.exists():
 
         return {
-            "error": str(e)
+            "date": date,
+            "tournaments": []
         }
+
+    with open(
+        file_path,
+        "r",
+        encoding="utf-8"
+    ) as f:
+
+        return json.load(f)
+
+
+@router.get("/match/{match_id}")
+async def get_match(
+    match_id: str,
+    date: str
+):
+
+    file_path = (
+        DATA_DIR /
+        f"cricket_{date}.json"
+    )
+
+    if not file_path.exists():
+        return {}
+
+    with open(
+        file_path,
+        "r",
+        encoding="utf-8"
+    ) as f:
+
+        data = json.load(f)
+
+    for tournament in data.get(
+        "tournaments",
+        []
+    ):
+
+        for match in tournament.get(
+            "matches",
+            []
+        ):
+
+            if str(
+                match.get("match_id")
+            ) == str(match_id):
+
+                return match
+
+    return {}
