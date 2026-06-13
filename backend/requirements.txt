@@ -1,0 +1,13 @@
+playwright
+aiofiles
+orjson
+rich
+loguru
+uvicorn
+fastapi
+pydantic
+pytest
+pytest-asyncio
+
+pymongo
+python-dotenv

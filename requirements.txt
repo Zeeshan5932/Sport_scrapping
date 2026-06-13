@@ -1,5 +1,0 @@
-playwright
-aiofiles
-orjson
-rich
-loguru

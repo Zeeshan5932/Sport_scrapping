@@ -7,7 +7,7 @@ from playwright.async_api import async_playwright
 
 from config.settings import TARGET_URL, LIVE_INTERVAL
 from utils.storage import get_output_path, load_existing_data, save_data
-from utils.match_utils import is_match_live, build_match_key
+from utils.match_utils import is_match_live, is_match_ended, build_match_key
 from scraper.extractors import get_basic_match_info, scrape_single_match
 
 
@@ -254,9 +254,10 @@ async def run_live_scraper():
                             logging.info(f"       SAVED → {output_file}")
 
                             # Agar ended ho gaya → ended set mein add karo
-                            if not is_match_live(match_data.get("status", "")):
+                            if is_match_ended(match_data.get("status", "")):
                                 ended_keys.add(match_key)
-                                logging.info(f"       Match ended — will not re-scrape")
+                                scorecard_status = "scorecard captured" if match_data.get("scorecard") else "scorecard pending"
+                                logging.info(f"       Match ended — {scorecard_status}, will not re-scrape")
 
                 # ── WAIT BEFORE NEXT LOOP ──
                 elapsed  = time.time() - loop_start

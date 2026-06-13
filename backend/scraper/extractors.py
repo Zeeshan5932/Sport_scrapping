@@ -2,6 +2,8 @@ import logging
 import re
 from datetime import datetime
 
+from utils.match_utils import is_match_live
+
 
 # ─── BASIC INFO (no click needed) ─────────────────────────
 
@@ -80,8 +82,15 @@ async def scrape_single_match(page, t_idx, m_idx, today, tournament_name, basic)
             "is_simulated":   basic["is_simulated"],
             "result":         basic["result"],
             "toss_winner":    toss_winner,
-            "innings":        []
+            "innings":        [],
+            "scorecard":      []
         }
+
+        # ─── FOR LIVE MATCHES: Return early without opening scorecard ──
+        if is_match_live(basic["status"]):
+            return match_data
+
+        # ─── FOR ENDED MATCHES: Open scorecard and scrape details ──
 
         # Panel click → scorecard open
         await page.evaluate(f"""
@@ -125,6 +134,7 @@ async def scrape_single_match(page, t_idx, m_idx, today, tournament_name, basic)
             innings_data = await extract_innings_data(page, tab_name)
 
             match_data["innings"].append(innings_data)
+            match_data["scorecard"].append(innings_data)
 
             logging.info(
                 f"       {tab_name}: "

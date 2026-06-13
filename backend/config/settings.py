@@ -1,4 +1,8 @@
 # ─── CONFIG ───────────────────────────────────────────────
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
 
 TARGET_URL = "https://sportcenter.sir.sportradar.com/cricket-lmt"
 
@@ -9,3 +13,5 @@ DATA_FOLDER = "data"
 LOG_FOLDER = "logs"
 
 # ──────────────────────────────────────────────────────────
+
+MONGO_URI = os.getenv("MONGO_URI")

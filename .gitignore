@@ -1,12 +1,68 @@
-# add file which is ignoring
-# for example:
-# *.log
-# node_modules/
-# .env
-# Ignore all .log files
-*.log
-# Ignore the node_modules directory
-node_modules/
-# Ignore environment variable files
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+dist-packages/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Pytest / coverage
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*,cover
+htmlcov/
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Environment variables
 .env
-# Ignore build output directories
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node dependencies (if any)
+node_modules/
