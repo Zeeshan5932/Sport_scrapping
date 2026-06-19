@@ -66,5 +66,10 @@ def root():
 
 if __name__ == "__main__":
     import uvicorn
+    import sys
 
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    try:
+        uvicorn.run(app, host="0.0.0.0", port=8000)
+    except KeyboardInterrupt:
+        logging.info("Shutdown requested (KeyboardInterrupt)")
+        sys.exit(0)

@@ -287,8 +287,10 @@ async def run_live_scraper():
 
                     await asyncio.sleep(LIVE_INTERVAL)
 
-        except KeyboardInterrupt:
+        except (KeyboardInterrupt, asyncio.CancelledError):
             logging.info("\nScraper stopped by user.")
+            # Propagate cancellation so parent can handle shutdown
+            raise
 
         except Exception as e:
             logging.error(f"Loop error: {e}")
