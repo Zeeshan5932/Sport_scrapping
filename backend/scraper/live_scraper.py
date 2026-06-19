@@ -5,8 +5,9 @@ from datetime import datetime
 
 from playwright.async_api import async_playwright
 
-from config.settings import TARGET_URL, LIVE_INTERVAL
+from config.settings import TARGET_URL, LIVE_INTERVAL, DATA_FOLDER
 from utils.storage import get_output_path, load_existing_data, save_data
+import os
 from utils.match_utils import is_match_live, is_match_ended, build_match_key
 from scraper.extractors import get_basic_match_info, scrape_single_match
 
@@ -296,3 +297,89 @@ async def run_live_scraper():
 
         finally:
             await browser.close()
+
+
+    async def scrape_date_once(target_date: str):
+        """One-shot scrape for the specified date (YYYY-MM-DD). Runs a single pass and saves results."""
+        output_file = os.path.join(DATA_FOLDER, f"cricket_{target_date}.json")
+
+        logging.info(f"One-shot scraper started for {target_date}")
+
+        master = {
+            "date": target_date,
+            "scraped_at": datetime.now().isoformat(),
+            "source": TARGET_URL,
+            "total_tournaments": 0,
+            "total_matches": 0,
+            "tournaments": []
+        }
+
+        async with async_playwright() as p:
+            browser = await p.chromium.launch(
+                headless=True,
+                args=["--no-sandbox"]
+            )
+
+            context = await browser.new_context(
+                viewport={"width": 1400, "height": 900},
+                user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124.0.0.0 Safari/537.36"
+            )
+
+            await context.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined});")
+
+            page = await context.new_page()
+
+            try:
+                await page.goto(TARGET_URL, wait_until="domcontentloaded", timeout=60000)
+                await page.wait_for_selector(".sr-simcrick-scb__team-name", timeout=60000, state="visible")
+                await page.wait_for_timeout(2000)
+
+                tournament_count = await page.evaluate(
+                    "() => document.querySelectorAll('.d-cricket-lmt__cricket_wrapper').length"
+                )
+
+                for t_idx in range(tournament_count):
+                    tournament_name = await page.evaluate(f"""
+                        () => {{
+                            const w = document.querySelectorAll('.d-cricket-lmt__cricket_wrapper')[{t_idx}];
+                            return w?.querySelector('.d-cricket-lmt__cricket_league')?.textContent.trim() || 'Unknown';
+                        }}
+                    """)
+
+                    match_count = await page.evaluate(f"""
+                        () => document.querySelectorAll('.d-cricket-lmt__cricket_wrapper')[{t_idx}]
+                              .querySelectorAll('.sr-simcrick-scb__wrapper').length
+                    """)
+
+                    t_master = {
+                        "tournament_index": t_idx + 1,
+                        "tournament_name": tournament_name,
+                        "date": target_date,
+                        "total_matches": 0,
+                        "matches": []
+                    }
+
+                    for m_idx in range(match_count):
+                        basic = await get_basic_match_info(page, t_idx, m_idx)
+                        if not basic:
+                            continue
+
+                        match_data = await scrape_single_match(page, t_idx, m_idx, target_date, tournament_name, basic)
+                        if match_data:
+                            t_master["matches"].append(match_data)
+
+                    t_master["total_matches"] = len(t_master["matches"])
+                    if t_master["matches"]:
+                        master["tournaments"].append(t_master)
+
+                master["total_tournaments"] = len(master["tournaments"])
+                master["total_matches"] = sum(t["total_matches"] for t in master["tournaments"])
+
+                save_data(output_file, master)
+                logging.info(f"One-shot scrape saved to {output_file}")
+
+            except Exception as e:
+                logging.exception(f"One-shot scrape failed for {target_date}: {e}")
+
+            finally:
+                await browser.close()

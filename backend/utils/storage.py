@@ -1,86 +1,44 @@
 import os
-import json
-
 from datetime import datetime
+from typing import Optional, Dict, Any
+import logging
 
-from config.settings import DATA_FOLDER
-
-from db.mongodb import matches_collection
+from config import settings
+from storage.storage_manager import get_storage_manager
 
 
 def get_output_path():
-
-    today = datetime.now().strftime(
-        "%Y-%m-%d"
-    )
-
-    return os.path.join(
-        DATA_FOLDER,
-        f"cricket_{today}.json"
-    )
+    today = datetime.now().strftime("%Y-%m-%d")
+    return os.path.join(settings.DATA_FOLDER, f"cricket_{today}.json")
 
 
-def load_existing_data(output_file):
+def load_existing_data(output_file: str) -> Optional[Dict[str, Any]]:
+    today = datetime.now().strftime("%Y-%m-%d")
+    mgr = get_storage_manager()
+    try:
+        data = mgr.load_master(today)
+        if data:
+            return data
+    except Exception:
+        logging.debug("Mongo load failed; falling back to JSON")
 
-    today = datetime.now().strftime(
-        "%Y-%m-%d"
-    )
-
-    # MongoDB First
-
-    mongo_data = matches_collection.find_one(
-        {"date": today},
-        {"_id": 0}
-    )
-
-    if mongo_data:
-        return mongo_data
-
-    # Fallback JSON
-
+    # Fallback to file
     if os.path.exists(output_file):
-
         try:
-
-            with open(
-                output_file,
-                "r",
-                encoding="utf-8"
-            ) as f:
-
+            import json
+            with open(output_file, "r", encoding="utf-8") as f:
                 return json.load(f)
-
         except Exception:
             pass
 
     return None
 
 
-def save_data(output_file, data):
-
-    # JSON SAVE
-
-    with open(
-        output_file,
-        "w",
-        encoding="utf-8"
-    ) as f:
-
-        json.dump(
-            data,
-            f,
-            ensure_ascii=False,
-            indent=2
-        )
-
-    # MONGODB SAVE
-
-    matches_collection.replace_one(
-        {"date": data["date"]},
-        data,
-        upsert=True
-    )
-
-    print(
-        f"Saved to JSON + MongoDB : {data['date']}"
-    )
+def save_data(output_file: str, data: Dict[str, Any]) -> None:
+    mgr = get_storage_manager()
+    try:
+        # StorageManager handles Mongo first then JSON fallback
+        mgr.save_master(data)
+        logging.info(f"Saved via StorageManager: {data.get('date')}")
+    except Exception as e:
+        logging.error(f"StorageManager save failed: {e}")

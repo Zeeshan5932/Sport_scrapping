@@ -11,3 +11,6 @@ pytest-asyncio
 
 pymongo
 python-dotenv
+certifi
+dnspython
+python-dateutil
