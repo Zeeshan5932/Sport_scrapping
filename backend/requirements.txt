@@ -1,4 +1,4 @@
-playwright
+playwright==1.54.0
 aiofiles
 orjson
 rich
@@ -8,7 +8,6 @@ fastapi
 pydantic
 pytest
 pytest-asyncio
-
 pymongo
 python-dotenv
 certifi
