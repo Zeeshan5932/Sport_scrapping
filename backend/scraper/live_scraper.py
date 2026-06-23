@@ -55,9 +55,9 @@ async def run_live_scraper():
         browser = await p.chromium.launch(
             headless=True,
             args=[
-                "--window-size=1400,900",
-                "--disable-blink-features=AutomationControlled",
-                "--no-sandbox",
+                    "--no-sandbox",
+                "--disable-setuid-sandbox",
+                "--disable-dev-shm-usage",
             ]
         )
 
