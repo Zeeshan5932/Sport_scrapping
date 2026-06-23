@@ -8,7 +8,12 @@ from api.matches import router as matches_router
 from storage.storage_manager import StorageManager, set_storage_manager
 from scraper.live_scraper import run_live_scraper
 from config import settings
+import subprocess
 
+subprocess.run(
+    ["python", "-m", "playwright", "install", "chromium"],
+    check=True
+)
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
