@@ -53,7 +53,7 @@ async def run_live_scraper():
 
     async with async_playwright() as p:
         browser = await p.chromium.launch(
-            headless=False,
+            headless=True,
             args=[
                 "--window-size=1400,900",
                 "--disable-blink-features=AutomationControlled",
