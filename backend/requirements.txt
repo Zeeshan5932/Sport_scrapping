@@ -13,3 +13,4 @@ python-dotenv
 certifi
 dnspython
 python-dateutil
+xvfbwrapper
